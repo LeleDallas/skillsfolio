@@ -1,7 +1,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import React, { SVGAttributes, FunctionComponent } from 'react';
+import { SVGAttributes, FunctionComponent } from 'react';
 import IconClose from './IconClose';
 import IconClose1 from './IconClose1';
 import IconSubmit from './IconSubmit';
