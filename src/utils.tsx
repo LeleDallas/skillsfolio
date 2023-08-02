@@ -15,22 +15,22 @@ export const navbarItems = ["About", "Resume", "Portfolio", "Blog", "Contact"]
 
 export const serviceItems = [
     {
-        image: "/assets/icon-design.svg",
+        image: "./assets/icon-design.svg",
         title: "Web design",
         text: "The most modern and high-quality design made at a professional level."
     },
     {
-        image: "/assets/icon-dev.svg",
+        image: "./assets/icon-dev.svg",
         title: "Software development",
         text: "The most modern and high-quality design made at a professional level."
     },
     {
-        image: "/assets/icon-dev.svg",
+        image: "./assets/icon-dev.svg",
         title: "Software development",
         text: "The most modern and high-quality design made at a professional level."
     },
     {
-        image: "/assets/icon-dev.svg",
+        image: "./assets/icon-dev.svg",
         title: "Software development",
         text: "The most modern and high-quality design made at a professional level."
     },
