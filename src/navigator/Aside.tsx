@@ -22,7 +22,7 @@ const Aside = () => {
 
             <div className="sidebar-info">
                 <figure className="avatar-box">
-                    <img src="./src/assets/my-avatar.png" alt={fullName} width="80" />
+                    <img src="/assets/my-avatar.png" alt={fullName} width="80" />
                 </figure>
 
                 <div className="info-content">

@@ -77,7 +77,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-1.jpg" alt="finance" loading="lazy" />
+                                <img src="/assets/project-1.jpg" alt="finance" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Finance</h3>
@@ -95,7 +95,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-2.png" alt="orizon" loading="lazy" />
+                                <img src="/assets/project-2.png" alt="orizon" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Orizon</h3>
@@ -113,7 +113,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-3.jpg" alt="fundo" loading="lazy" />
+                                <img src="/assets/project-3.jpg" alt="fundo" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Fundo</h3>
@@ -131,7 +131,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-4.png" alt="brawlhalla" loading="lazy" />
+                                <img src="/assets/project-4.png" alt="brawlhalla" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Brawlhalla</h3>
@@ -149,7 +149,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-5.png" alt="dsm." loading="lazy" />
+                                <img src="/assets/project-5.png" alt="dsm." loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">DSM.</h3>
@@ -167,7 +167,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-6.png" alt="metaspark" loading="lazy" />
+                                <img src="/assets/project-6.png" alt="metaspark" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">MetaSpark</h3>
@@ -185,7 +185,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-7.png" alt="summary" loading="lazy" />
+                                <img src="/assets/project-7.png" alt="summary" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Summary</h3>
@@ -203,7 +203,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-8.jpg" alt="task manager" loading="lazy" />
+                                <img src="/assets/project-8.jpg" alt="task manager" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Task Manager</h3>
@@ -221,7 +221,7 @@ const Portfolio = ({ active }: ScreenProps) => {
                                     {/* <ion-icon name="eye-outline"></ion-icon> */}
                                 </div>
 
-                                <img src="./src/assets/project-9.png" alt="arrival" loading="lazy" />
+                                <img src="/assets/project-9.png" alt="arrival" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Arrival</h3>
