@@ -45,9 +45,7 @@ const About = ({ active }: ScreenProps) => {
             </section>
 
             <section className="testimonials">
-
-                <h3 className="h3 testimonials-title">Most used Technologies</h3>
-
+                <h3 className="h3 testimonials-title">Tech Stack</h3>
                 <ul className="testimonials-list has-scrollbar">
                     {technologiesItems.map(technology =>
                         <li key={technology.title}
@@ -57,12 +55,12 @@ const About = ({ active }: ScreenProps) => {
                             }}
                             className="testimonials-item"
                         >
-                            <div className="content-card" data-testimonials-item>
+                            <div className="content-card">
                                 <figure className="testimonials-avatar-box">
                                     <img src={technology.image} alt={technology.title} />
                                 </figure>
-                                <h4 className="h4 testimonials-item-title" data-testimonials-title>{technology.title}</h4>
-                                <div className="testimonials-text" data-testimonials-text>
+                                <h4 className="h4 testimonials-item-title" >{technology.title}</h4>
+                                <div className="testimonials-text" >
                                     <p>{technology.description}</p>
                                 </div>
                             </div>

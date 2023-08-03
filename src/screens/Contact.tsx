@@ -28,7 +28,7 @@ const Contact = ({ active }: ScreenProps) =>
                 <textarea name="message" className="form-input" placeholder="Your Message" required data-form-input />
                 <button className="form-btn" type="submit" data-form-btn>
                     <span>Send Message</span>
-                    <IconFont name="submit" color={"hsl(45, 54%, 58%)"} />
+                    <IconFont name="submit" color={"#009FFD"} />
                 </button>
             </form>
         </section>
