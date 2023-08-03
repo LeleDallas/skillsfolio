@@ -22,7 +22,7 @@ const Aside = () => {
 
             <div className="sidebar-info">
                 <figure className="avatar-box">
-                    <img src="./assets/my-avatar.png" alt={fullName} width="80" />
+                    <img src="https://mdundo.com/media/articles/1599277727_4586_b.jpg" alt={fullName} style={{ borderRadius: 30, boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)" }} width="80" />
                 </figure>
 
                 <div className="info-content">
@@ -45,7 +45,7 @@ const Aside = () => {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <IconFont name="Mail" size={22} color="hsl(45, 54%, 58%)" />
+                            <IconFont name="Mail" size={22} color="#009FFD" />
                         </div>
 
                         <div className="contact-info">
@@ -58,7 +58,7 @@ const Aside = () => {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <IconFont name="phoneiphone" size={22} color="hsl(45, 54%, 58%)" />
+                            <IconFont name="phoneiphone" size={22} color="#009FFD" />
                         </div>
 
                         <div className="contact-info">
@@ -71,7 +71,7 @@ const Aside = () => {
 
                     <li className="contact-item">
                         <div className="icon-box">
-                            <IconFont name="riqi" size={22} color="hsl(45, 54%, 58%)" />
+                            <IconFont name="riqi" size={22} color="#009FFD" />
                         </div>
 
                         <div className="contact-info">
@@ -83,7 +83,7 @@ const Aside = () => {
 
                     <li className="contact-item">
                         <div className="icon-box">
-                            <IconFont name="dingwei" size={22} color="hsl(45, 54%, 58%)" />
+                            <IconFont name="dingwei" size={22} color="#009FFD" />
                         </div>
                         <div className="contact-info">
                             <p className="contact-title">Location</p>
