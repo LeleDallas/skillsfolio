@@ -9,7 +9,7 @@ export const location = "Cesena, Emilia-Romagna, ITA"
 export const description = "I'm a Software Engineer from Cesena, Italy, with a passion for creating high-performance web and mobile applications. I enjoy turning complex problems into simple, beautiful and intuitive designs."
 export const descriptionDetails = `I love building high-performance web and mobile apps. From requirements to deployment, I handle the entire development lifecycle with passion and precision. 
 Keeping up with the latest trends in the industry is a priority, ensuring I always deliver top-notch, user-friendly solutions.
-Let's collaborate and create something amazing together!`
+\nLet's collaborate and create something amazing together!`
 
 
 
@@ -17,24 +17,24 @@ export const navbarItems = ["About", "Resume", "Portfolio", "Bookshelf", "Contac
 
 export const serviceItems = [
     {
-        image: "./assets/icon-design.svg",
-        title: "UI/UX Designer",
-        text: "The most modern and high-quality design made at a professional level."
-    },
-    {
-        image: "./assets/icon-dev.svg",
-        title: "DevOps",
-        text: "The most modern and high-quality design made at a professional level."
-    },
-    {
         image: "./assets/icon-dev.svg",
         title: "Software development",
-        text: "The most modern and high-quality design made at a professional level."
+        text: "Excellence in Software Development: Creating modern, high-quality solutions with a professional touch."
     },
     {
-        image: "./assets/icon-dev.svg",
+        image: "./assets/icon-mobile.svg",
         title: "Mobile App Developer",
-        text: "The most modern and high-quality design made at a professional level."
+        text: "Transforming ideas into polished mobile applications for iOS and Android, backed by professional expertise."
+    },
+    {
+        image: "./assets/icon-design.svg",
+        title: "UI/UX Designer",
+        text: "Crafting cutting-edge UI/UX experiences, where innovation meets professionalism."
+    },
+    {
+        image: "./assets/icon-ci.svg",
+        title: "DevOps",
+        text: "Empowering Agile Software Development through DevOps with Continuous Integration"
     },
 ]
 
@@ -42,37 +42,37 @@ export const technologiesItems: Array<DataModel> = [
     {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         title: "React/React Native",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "I've leveraged the power of React and React Native to build dynamic and responsive web applications and mobile experiences. With React's component-based architecture, I crafted efficient and reusable UI components that ensured a smooth user interface across various devices and screen sizes. Whether it's developing feature-rich web applications or creating immersive mobile apps for both iOS and Android, I pride myself on delivering top-notch solutions that blend the best of modern technology and user-centric design.",
         purpose: "---"
     },
     {
         image: "https://vitejs.dev/logo-with-shadow.png",
         title: "Vite",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "Taken web development to the next level, delivering blazing-fast and highly performant applications. By harnessing Vite's lightning-fast build system, I've optimized the development workflow, reducing build times significantly. This allowed me to focus on crafting efficient, modern, and feature-rich web applications without compromising on speed or user experience. Embracing Vite's simplicity and versatility, I've successfully built projects that showcase the true potential of cutting-edge web technologies, providing seamless user interactions and a delightful browsing experience.",
         purpose: "---"
     },
     {
         image: "https://vitest.dev/logo.svg",
         title: "Vitest",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "Elevated the quality and reliability of my JavaScript and React Vite projects. As a powerful testing framework, Vitest has allowed me to write comprehensive test suites, ensuring that my code functions as expected and remains resilient to changes. By employing Vitest snapshot testing, I've effortlessly detected regressions and maintained code consistency across iterations. Whether writing unit tests, integration tests, or UI component tests, Vitest has been an invaluable tool in my toolkit, helping me deliver robust and bug-free applications.",
         purpose: "---"
     },
     {
         image: "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
         title: "Java",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. Java's object-oriented nature allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through Java's vast ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my Java expertise has driven the development of powerful software that addresses diverse business needs.",
         purpose: "---"
     },
     {
         image: "https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
         title: "Scala",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "I've embraced the power of functional programming and object-oriented paradigms to build elegant and scalable applications. Scala's expressive syntax and strong type system allowed me to write concise and readable code, facilitating rapid development without sacrificing safety. Leveraging its seamless integration with Java, I've harnessed existing Java libraries and ecosystems while enjoying the benefits of functional programming offered by Scala. From building high-performance backend services to creating data-intensive applications, Scala has been my language of choice for crafting innovative solutions that push the boundaries of modern software development.",
         purpose: "---"
     },
     {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
         title: "Python",
-        description: "The most modern and high-quality design made at a professional level.",
+        description: "I've harnessed the immense potential of machine learning, driving data-driven insights and predictive capabilities. Leveraging popular libraries such as TensorFlow and Scikit-learn, I've developed cutting-edge machine learning models for various applications, from image recognition to natural language processing. Python's versatility and extensive libraries have also enabled me to automate operational tasks, streamlining processes and improving overall efficiency. Moreover, I've utilized Python for forecasting and data analysis, empowering businesses with valuable foresight and informed decision-making. As a Python enthusiast, I've leveraged its capabilities to create innovative solutions that optimize workflows, extract meaningful patterns from data, and make businesses future-ready.",
         purpose: "---"
     },
 ]
@@ -187,22 +187,22 @@ export const resumeItem: Array<ResumeObject> = [
 
 export const experiencesItem: Array<ResumeObject> = [
     {
-        description: "Alma Mater Studiorum, University of Bologna",
+        description: `Responsible for utilizing extensive experience with React, React Native, TypeScript, MERN stack, microservices, GCP and Aveva Hub to build high-performance, responsive web and mobile applications, design and build data connectors for time-series data stores, and automate data analysis and scripting. Skilled in the entire software development lifecycle, from requirements gathering to testing and deployment, and passionate about building high-quality, user-friendly applications while staying up-to-date with the latest developments in the field.`,
         title: "Full Stack Developer at DERNetSoft",
         time: "2020 - Present"
     },
     {
         title: "at FabLabRomagna",
-        description: "Bachelor in Computer Science and Engineering",
+        description: `Designing and creating a web radio using Volumio software, an Arduino board, and a 3D printed case manufactured with AutoCAD, providing a customized and interactive radio experience.`,
         time: "Feb 2018 - Mar 2018"
     },
     {
         title: "Internship as Web Developer at QUEEN S.R.L",
-        description: "Technical Technological Diploma",
+        description: `Create and manage websites efficiently using the Joomla content management system, enabling seamless content updates and website administration.`,
         time: "Feb 2017 - Mar 2017"
     },
     {
-        description: "ITT Blaise Pascal, Cesena",
+        description: `Conducting comprehensive tests to identify and document software bugs, ensuring the website's optimal performance and user experience.`,
         title: "Internship as Application debugger at Flatme Networks srls",
         time: "Feb 2016 - Mar 2016"
     },
