@@ -14,7 +14,7 @@ const Resume = ({ active }: ScreenProps) =>
         <section className="timeline">
             <div className="title-wrapper">
                 <div className="icon-box">
-                    <IconFont name="education" size={24} color={"#009FFD"} />
+                    <IconFont name="education" size={24} color={"#006df0"} />
                 </div>
 
                 <h3 className="h3">Education</h3>
@@ -24,8 +24,8 @@ const Resume = ({ active }: ScreenProps) =>
                 {resumeItem.map(item =>
                     <li className="timeline-item" key={item.title}>
                         <h4 className="h4 timeline-item-title">{item.title}</h4>
-                        <span>{item.time}</span>
                         <p className="timeline-text">{item.description}</p>
+                        <span>{item.time}</span>
                     </li>
                 )}
             </ol>
@@ -36,7 +36,7 @@ const Resume = ({ active }: ScreenProps) =>
 
             <div className="title-wrapper">
                 <div className="icon-box">
-                    <IconFont name="icexperience" size={24} color={"#009FFD"} />
+                    <IconFont name="icexperience" size={24} color={"#006df0"} />
                 </div>
 
                 <h3 className="h3">Experience</h3>

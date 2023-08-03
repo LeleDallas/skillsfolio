@@ -45,7 +45,7 @@ const Aside = () => {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <IconFont name="Mail" size={22} color="#009FFD" />
+                            <IconFont name="Mail" size={22} color="#006df0" />
                         </div>
 
                         <div className="contact-info">
@@ -58,7 +58,7 @@ const Aside = () => {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <IconFont name="phoneiphone" size={22} color="#009FFD" />
+                            <IconFont name="phoneiphone" size={22} color="#006df0" />
                         </div>
 
                         <div className="contact-info">
@@ -71,7 +71,7 @@ const Aside = () => {
 
                     <li className="contact-item">
                         <div className="icon-box">
-                            <IconFont name="riqi" size={22} color="#009FFD" />
+                            <IconFont name="riqi" size={22} color="#006df0" />
                         </div>
 
                         <div className="contact-info">
@@ -83,7 +83,7 @@ const Aside = () => {
 
                     <li className="contact-item">
                         <div className="icon-box">
-                            <IconFont name="dingwei" size={22} color="#009FFD" />
+                            <IconFont name="dingwei" size={22} color="#006df0" />
                         </div>
                         <div className="contact-info">
                             <p className="contact-title">Location</p>
