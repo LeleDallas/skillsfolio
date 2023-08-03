@@ -5,7 +5,7 @@ import Aside from './navigator/Aside'
 import Resume from './screens/Resume'
 import { ActiveNav } from './types'
 import Contact from './screens/Contact'
-import Blog from './screens/Blog'
+import Bookshelf from './screens/Bookshelf'
 import Portfolio from './screens/Portfolio'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <About active={active} />
         <Resume active={active} />
         <Contact active={active} />
-        <Blog active={active} />
+        <Bookshelf active={active} />
         <Portfolio active={active} />
       </div>
     </main>

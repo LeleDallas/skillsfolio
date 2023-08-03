@@ -1,6 +1,6 @@
 import { IconNames } from "./components/iconfont"
 
-export type ActiveNav = "About" | "Resume" | "Portfolio" | "Blog" | "Contact"
+export type ActiveNav = "About" | "Resume" | "Portfolio" | "Bookshelf" | "Contact"
 
 export interface ScreenProps {
     active: ActiveNav
@@ -27,4 +27,18 @@ export interface ModalProps {
 export interface SocialObject {
     url: string
     icon: IconNames
+}
+export interface BookObject {
+    title: string
+    description: string
+    category: string
+    image: string
+    author: string
+    link?: string
+}
+
+export interface ResumeObject {
+    title: string
+    description: string
+    time: string
 }
