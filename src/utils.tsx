@@ -1,4 +1,4 @@
-import { BookObject, DataModel, SocialObject } from "./types"
+import { BookObject, DataModel, ResumeObject, SocialObject } from "./types"
 
 export const fullName = "Emanuele Dall'Ara"
 export const email = "emanuele.dallara99@gmail.com"
@@ -41,7 +41,7 @@ export const serviceItems = [
 export const technologiesItems: Array<DataModel> = [
     {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        title: "React",
+        title: "React/React Native",
         description: "The most modern and high-quality design made at a professional level.",
         purpose: "---"
     },
@@ -102,7 +102,7 @@ export const bookList: Array<BookObject> = [
         title: "So good they can't ignore you",
         description: "",
         category: "Personal Growth",
-        author: "",
+        author: "Cal Newport",
         image: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b7/08/76/b708761e-45c8-43af-4e18-21095ef191f6/9781455509102.jpg/1200x600wz.png",
         link: "",
     },
@@ -126,7 +126,7 @@ export const bookList: Array<BookObject> = [
         title: "Hustle Harder, Hustle Smarter",
         description: "",
         category: "Personal Growth",
-        author: "",
+        author: "Curtis Jackson",
         image: "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fb/2b/bb/fb2bbb1d-68cf-3350-281f-8e1b402e6032/9780062953834.jpg/1200x600wp.png",
         link: "",
     },
@@ -134,7 +134,7 @@ export const bookList: Array<BookObject> = [
         title: "Decoded",
         description: "",
         category: "Personal Growth",
-        author: "",
+        author: "Jay-Z",
         image: "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/f6/46/a9/f646a92a-d9d8-cac6-51b5-3af19babf7a1/9781588369598.jpg/1200x630wz.png",
         link: "",
     },
@@ -164,5 +164,46 @@ export const bookList: Array<BookObject> = [
         author: "Dr. Joe Dispenza",
         image: "https://is4-ssl.mzstatic.com/image/thumb/Publication128/v4/4b/af/fe/4baffeae-d880-8202-3d36-6d67e23b123d/9781401953102.jpg/1200x630wz.png",
         link: "",
+    },
+]
+
+export const resumeItem: Array<ResumeObject> = [
+    {
+        description: "Alma Mater Studiorum, University of Bologna",
+        title: "Second cycle degree/two year master in Computer Science and Engineering",
+        time: "2021 - 2023"
+    },
+    {
+        description: "Alma Mater Studiorum, University of Bologna",
+        title: "Bachelor in Computer Science and Engineering",
+        time: "2018 - 2021"
+    },
+    {
+        description: "ITT Blaise Pascal, Cesena",
+        title: "Technical Technological Diploma",
+        time: "2013 - 2018"
+    },
+]
+
+export const experiencesItem: Array<ResumeObject> = [
+    {
+        description: "Alma Mater Studiorum, University of Bologna",
+        title: "Full Stack Developer at DERNetSoft",
+        time: "2020 - Present"
+    },
+    {
+        title: "at FabLabRomagna",
+        description: "Bachelor in Computer Science and Engineering",
+        time: "Feb 2018 - Mar 2018"
+    },
+    {
+        title: "Internship as Web Developer at QUEEN S.R.L",
+        description: "Technical Technological Diploma",
+        time: "Feb 2017 - Mar 2017"
+    },
+    {
+        description: "ITT Blaise Pascal, Cesena",
+        title: "Internship as Application debugger at Flatme Networks srls",
+        time: "Feb 2016 - Mar 2016"
     },
 ]

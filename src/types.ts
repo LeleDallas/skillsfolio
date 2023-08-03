@@ -36,3 +36,9 @@ export interface BookObject {
     author: string
     link?: string
 }
+
+export interface ResumeObject {
+    title: string
+    description: string
+    time: string
+}
