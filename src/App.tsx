@@ -6,7 +6,7 @@ import Resume from './screens/Resume'
 import { ActiveNav } from './types'
 import Contact from './screens/Contact'
 import Bookshelf from './screens/Bookshelf'
-import Portfolio from './screens/Portfolio'
+import Projects from './screens/Projects'
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
         <Resume active={active} />
         <Contact active={active} />
         <Bookshelf active={active} />
-        <Portfolio active={active} />
+        <Projects active={active} />
       </div>
     </main>
   )

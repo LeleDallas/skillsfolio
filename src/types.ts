@@ -1,6 +1,6 @@
 import { IconNames } from "./components/iconfont"
 
-export type ActiveNav = "About" | "Resume" | "Portfolio" | "Bookshelf" | "Contact"
+export type ActiveNav = "About" | "Resume" | "Projects" | "Bookshelf" | "Contact"
 
 export interface ScreenProps {
     active: ActiveNav
