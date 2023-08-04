@@ -1,13 +1,16 @@
 import { useState } from "react"
-import { ScreenProps } from "../types"
+import { DataProjectModel, ScreenProps } from "../types"
 import IconFont from "../components/iconfont"
 import { projects } from "../utils"
+import ModalProjects from "./ModalProjects"
 
 type Categories = "All" | "Mobile development" | "Applications" | "Web development"
 
 const Projects = ({ active }: ScreenProps) => {
 
     const [selectedCategory, setSelectedCategory] = useState<Categories>("All")
+    const [visible, setVisible] = useState(false)
+    const [data, setData] = useState<DataProjectModel>(projects[0])
 
     const checkActive = (category: Categories, currentStatus: Categories) => category === currentStatus ? "active" : ""
 
@@ -59,7 +62,12 @@ const Projects = ({ active }: ScreenProps) => {
 
                 <ul className="project-list">
                     {projects.map(project =>
-                        <li key={project.title} className="project-item  active">
+                        <li
+                            onClick={() => {
+                                setData(project)
+                                setVisible(true)
+                            }}
+                            key={project.title} className="project-item  active">
                             <a href="#">
                                 <figure className="project-img">
                                     <div className="project-item-icon-box">
@@ -74,6 +82,8 @@ const Projects = ({ active }: ScreenProps) => {
                         </li>
                     )}
                 </ul>
+                <ModalProjects visible={visible} setVisible={setVisible} data={data} />
+
             </section>
         </article>
     )
