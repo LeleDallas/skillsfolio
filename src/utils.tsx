@@ -1,4 +1,4 @@
-import { BookObject, DataModel, ResumeObject, SocialObject } from "./types"
+import { BookObject, DataModel, DataProjectModel, ResumeObject, SocialObject } from "./types"
 
 export const fullName = "Emanuele Dall'Ara"
 export const email = "emanuele.dallara99@gmail.com"
@@ -208,48 +208,48 @@ export const experiencesItem: Array<ResumeObject> = [
     },
 ]
 
-export const projects = [
+export const projects: Array<DataProjectModel> = [
     {
         title: "Cards Against Humanity",
-        image: "",
-        tech: "",
-        description: "Web Development",
-        url: "",
+        image: "./assets/project-1.jpg",
+        tech: "Web Development",
+        description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
+        url: "https://github.com/LeleDallas/Cards-Against-Humanity",
     },
     {
         title: "Uptune",
-        image: "",
-        tech: "",
-        description: "Android Development",
+        image: "./assets/project-1.jpg",
+        tech: "Android Application",
+        description: "",
         url: "https://github.com/LeleDallas/UpTune",
     },
     {
         title: "TrackER",
-        image: "",
-        tech: "",
-        description: "Web Development",
-        description2: "Web Development",
+        image: "./assets/project-1.jpg",
+        tech: "Web Development",
+        description: "",
+        description2: "",
         url: "https://github.com/TrackER-Corporation",
         url2: "https://github.com/DallasCorporation/TrackER",
     },
     {
         title: "BomberMan",
-        image: "",
-        tech: "",
+        image: "./assets/project-1.jpg",
+        tech: "Software Development",
         description: "",
         url: "https://github.com/LeleDallas/BomberMan",
     },
     {
         title: "WarVerse",
-        image: "",
-        tech: "",
+        image: "./assets/project-1.jpg",
+        tech: "Software Development",
         description: "",
         url: "https://github.com/GZaccaroni/pps-warverse",
     },
     {
         title: "skillsfolio",
-        image: "",
-        tech: "",
+        image: "./assets/project-1.jpg",
+        tech: "Software Development",
         description: "Vite portfolio application deployed within Github Actions",
         url: "https://github.com/LeleDallas/skillsfolio",
     },

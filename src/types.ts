@@ -24,6 +24,23 @@ export interface ModalProps {
     data: DataModel
 }
 
+export interface DataProjectModel {
+    title: string
+    tech: string
+    description: string
+    url: string
+    image: string
+    description2?: string
+    url2?: string
+
+}
+
+export interface ModalProjectProps {
+    visible: boolean,
+    setVisible: (visible: boolean) => void,
+    data: DataProjectModel
+}
+
 export interface SocialObject {
     url: string
     icon: IconNames
