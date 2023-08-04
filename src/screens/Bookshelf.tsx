@@ -16,20 +16,19 @@ const Bookshelf = ({ active }: ScreenProps) =>
 
                 {bookList.map(book =>
                     <li className="blog-post-item" key={book.title}>
-                        <a href="#">
+                        <a href={book.link} target="_blank">
                             <figure className="blog-banner-box">
                                 <img src={book.image} alt={book.title} loading="lazy" />
                             </figure>
 
                             <div className="blog-content">
-
                                 <div className="blog-meta">
                                     <p className="blog-category">{book.author}</p>
                                     <span className="dot"></span>
                                     <p className="blog-category">{book.category}</p>
                                 </div>
 
-                                <h3 className="h3 blog-item-title">{book.title}</h3>
+                                <h3  className="h3 blog-item-title">{book.title}</h3>
 
                                 <p className="testimonials-text">{book.description}</p>
 
