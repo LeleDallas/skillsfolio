@@ -1201,6 +1201,10 @@ main {
   margin-bottom: 10px;
   line-height: 1.3;
   transition: var(--transition-1);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .blog-post-item>a:hover .blog-item-title {

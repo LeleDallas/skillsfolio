@@ -13,7 +13,7 @@ Keeping up with the latest trends in the industry is a priority, ensuring I alwa
 
 
 
-export const navbarItems = ["About", "Resume", "Portfolio", "Bookshelf", "Contact"]
+export const navbarItems = ["About", "Resume", "Projects", "Bookshelf", "Contact"]
 
 export const serviceItems = [
     {
@@ -100,70 +100,70 @@ export const socialListIcons: Array<SocialObject> = [
 export const bookList: Array<BookObject> = [
     {
         title: "So good they can't ignore you",
-        description: "",
+        description: " So Good They Can’t Ignore You sheds some much needed light on the “follow your passion” myth and shows you that the true path to work you love lies in becoming a craftsman of the work you already have, collecting rare skills and taking control of your hours in the process.",
         category: "Personal Growth",
         author: "Cal Newport",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b7/08/76/b708761e-45c8-43af-4e18-21095ef191f6/9781455509102.jpg/1200x600wz.png",
-        link: "",
+        image: "./assets/calNewport.png",
+        link: "https://www.zenflowchart.com/blog/so-good-they-cant-ignore-you-cal-newport-book-summary#:~:text=How%20do%20you%20find%20a,build%20and%20maintain%20job%20satisfaction.",
     },
     {
-        title: "The seven spiritual laws of success",
-        description: "",
+        title: "The seven spiritual laws of success: a practical guide to the fulfillment of your dreams",
+        description: "Inspired in Hinduist and spiritualistic concepts, which preaches the idea that personal success is not the outcome of hard work, precise plans or a driving ambition, but rather of understanding our basic nature as human beings and how to follow the laws of nature. ",
         category: "Personal Growth",
-        author: "",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/94/23/22/942322b7-5156-c4df-d23d-78242b668a8c/52731bbf-38f0-4bb0-a226-9e2f5089a8d4_cover_image.jpg/1200x600wz.png",
-        link: "",
+        author: "Deepak Chopra",
+        image: "./assets/7laws.png",
+        link: "https://en.wikipedia.org/wiki/The_Seven_Spiritual_Laws_of_Success",
     },
     {
-        title: "The energy codes",
-        description: "Personal Growth",
-        category: "",
-        author: "",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/f2/26/57/f2265745-d601-d9ee-91ed-f7fe5cbfa8e1/9781501169328.jpg/1200x630wz.png",
-        link: "",
+        title: "The Energy Codes: The 7-Step System to Awaken Your Spirit, Heal Your Body, and Live Your Best Life",
+        description: "Transform your life with this revolutionary and accessible seven-step guide—grounded in energy medicine, neurobiology, and quantum physics—to awaken your true health and potential through energy healing.",
+        category: "Personal Growth",
+        author: "Sue Morter",
+        image: "./assets/energy.png",
+        link: "https://waiyancan.com/summary-the-energy-codes-by-sue-morter/",
     },
     {
         title: "Hustle Harder, Hustle Smarter",
-        description: "",
-        category: "Personal Growth",
-        author: "Curtis Jackson",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fb/2b/bb/fb2bbb1d-68cf-3350-281f-8e1b402e6032/9780062953834.jpg/1200x600wp.png",
-        link: "",
+        description: "For the first time, Curtis “50 Cent” Jackson opens up about his amazing comeback—from tragic personal loss to thriving businessman and cable's highest-paid executive—in this unique self-help guide, his first since his blockbuster New York Times bestseller The 50th Law.",
+        category: "Autobiography",
+        author: "Curtis '50 Cent' Jackson",
+        image: "./assets/hhhs.png",
+        link: "https://www.redital.com/2020/50-cent-opens-up-in-hustle-harder-hustle-smarter-book-review/#:~:text=Hustle%20Harder%2C%20Hustle%20Smarter%20is%20centered%20around%209%20themes%2C%20each,Ls%20and%20The%20Entitlement%20Trap.",
     },
     {
         title: "Decoded",
-        description: "",
-        category: "Personal Growth",
+        description: "Decoded is the autobiography and memoir of rapper Jay-Z, published by Random House and released November 16, 2010 on hardcover and November 1, 2011 on paperback. The book combines lyrics, their explanations, anecdotes, reflections, and autobiographical information.",
+        category: "Autobiography",
         author: "Jay-Z",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/f6/46/a9/f646a92a-d9d8-cac6-51b5-3af19babf7a1/9781588369598.jpg/1200x630wz.png",
-        link: "",
+        image: "./assets/decoded.png",
+        link: "https://en.wikipedia.org/wiki/Decoded_(memoir)",
     },
     {
-        title: "The Marathon Don't Stop",
+        title: "The Marathon Don't Stop: The Life and Times of Nipsey Hussle",
         description: `This “beautiful tribute to a legendary artist” (Quincy Jones) is the first in-depth biography of Nipsey Hussle, the hip-hop mogul, artist, and activist whose transformative legacy inspired a generation with his motivational lyrics and visionary business savvy—before he was tragically shot down in the very neighborhood he was dedicated to building up.
         For Nipsey Hussle, “The Marathon” was more than a mixtape title or the name of a clothing store; it was a way of life, a metaphor for the relentless pursuit of excellence and the willpower required to overcome adversity day after day. Hussle was determined to win the race to success on his own terms, and he wanted to see his whole community in the winner’s circle with him.
         A moving and powerful exploration of an extraordinary artist, The Marathon Don’t Stop places Hussle in historical context and unpacks his complex legacy. Combining on-the-ground reporting and candid interviews, “Rob Kenner has given us the book the world—and hip-hop and pop culture—has been waiting for…one that should be celebrated alongside the best biographies ever about iconic figures we have loved—and lost” (Kevin Powell, author of When We Free the World).`,
-        category: "Personal Growth",
-        author: "",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/40/a7/65/40a76590-4667-1182-62cc-b7d199a14087/9781797104935.jpg/1200x600wp.png",
-        link: "",
+        category: "Biography",
+        author: "Rob Kenner",
+        image: "./assets/nip.png",
+        link: "https://www.simonandschuster.com/books/The-Marathon-Dont-Stop/Rob-Kenner/9781982140304#:~:text=In%20The%20Marathon%20Don't,this%20planet%20all%20too%20soon.%E2%80%9D",
     },
     {
         title: "The 48 Laws of Power",
         description: `The 48 Laws of Power is a candid and controversial examination of power and its many dynamics. If you want to understand people and ascend in the world, this book is a good starting place.
         You’ll learn about the nature of power, how to acquire it, and the dark ways in which people operate in the world. And in doing so, you’ll understand how to leverage power to get what you want, ideally using that knowledge to better the world.`,
         category: "Personal Growth",
-        author: "",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/3d/d7/bb/3dd7bb73-c810-21b6-0e46-0cdfa478d8b0/9781101042458.jpg/1200x630wz.png",
-        link: "",
+        author: "Robert Greene",
+        image: "./assets/power.png",
+        link: "https://www.oberlo.com/blog/48-laws-of-power-robert-greene-summary",
     },
     {
         title: "Becoming Supernatural",
         description: "Becoming Supernatural marries some of the most profound scientific information with ancient wisdom to show how people like you and me can experience a more mystical life. Readers will learn that we are, quite literally supernatural by nature if given the proper knowledge and instruction, and when we learn how to apply that information through various meditations, we should experience a greater expression of our creative abilities; that we have the capacity to tune in to frequencies beyond our material world and receive more orderly coherent streams of consciousness and energy; that we can intentionally change our brain chemistry to initiate profoundly mystical transcendental experiences; and how, if we do this enough times, we can develop the skill of creating a more efficient, balanced, healthy body, a more unlimited mind, and greater access to the realms of spiritual truth.",
         category: "Personal Growth",
         author: "Dr. Joe Dispenza",
-        image: "https://is4-ssl.mzstatic.com/image/thumb/Publication128/v4/4b/af/fe/4baffeae-d880-8202-3d36-6d67e23b123d/9781401953102.jpg/1200x630wz.png",
-        link: "",
+        image: "./assets/supernatural.png",
+        link: "https://www.allencheng.com/becoming-supernatural-book-summary-dr-joe-dispenza/",
     },
 ]
 
@@ -206,4 +206,52 @@ export const experiencesItem: Array<ResumeObject> = [
         title: "Internship as Application debugger at Flatme Networks srls",
         time: "Feb 2016 - Mar 2016"
     },
+]
+
+export const projects = [
+    {
+        title: "Cards Against Humanity",
+        image: "",
+        tech: "",
+        description: "Web Development",
+        url: "",
+    },
+    {
+        title: "Uptune",
+        image: "",
+        tech: "",
+        description: "Android Development",
+        url: "https://github.com/LeleDallas/UpTune",
+    },
+    {
+        title: "TrackER",
+        image: "",
+        tech: "",
+        description: "Web Development",
+        description2: "Web Development",
+        url: "https://github.com/TrackER-Corporation",
+        url2: "https://github.com/DallasCorporation/TrackER",
+    },
+    {
+        title: "BomberMan",
+        image: "",
+        tech: "",
+        description: "",
+        url: "https://github.com/LeleDallas/BomberMan",
+    },
+    {
+        title: "WarVerse",
+        image: "",
+        tech: "",
+        description: "",
+        url: "https://github.com/GZaccaroni/pps-warverse",
+    },
+    {
+        title: "skillsfolio",
+        image: "",
+        tech: "",
+        description: "Vite portfolio application deployed within Github Actions",
+        url: "https://github.com/LeleDallas/skillsfolio",
+    },
+
 ]
