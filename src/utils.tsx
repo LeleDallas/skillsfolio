@@ -241,7 +241,7 @@ export const projects: Array<DataProjectModel> = [
     },
     {
         title: "WarVerse",
-        image: "./assets/project-1.jpg",
+        image: "./assets/warverse.png",
         tech: "Software Development",
         description: "",
         url: "https://github.com/GZaccaroni/pps-warverse",
