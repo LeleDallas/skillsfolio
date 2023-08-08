@@ -73,7 +73,7 @@ const Projects = ({ active }: ScreenProps) => {
                                     <div className="project-item-icon-box">
                                         <IconFont name="see" size={24} color={"#006df0"} />
                                     </div>
-                                    <img src="./assets/project-1.jpg" alt="finance" loading="lazy" />
+                                    <img src={project.image} alt="finance" loading="lazy" />
                                 </figure>
 
                                 <h3 className="project-title">{project.title}</h3>
@@ -83,7 +83,6 @@ const Projects = ({ active }: ScreenProps) => {
                     )}
                 </ul>
                 <ModalProjects visible={visible} setVisible={setVisible} data={data} />
-
             </section>
         </article>
     )
