@@ -26,13 +26,13 @@ export interface ModalProps {
 
 export interface DataProjectModel {
     title: string
-    tech: string
+    type: string
     description: string
     url: string
     image: string
     description2?: string
     url2?: string
-
+    tech?: Array<string>
 }
 
 export interface ModalProjectProps {

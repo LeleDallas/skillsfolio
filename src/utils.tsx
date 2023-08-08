@@ -212,46 +212,69 @@ export const projects: Array<DataProjectModel> = [
     {
         title: "Cards Against Humanity",
         image: "./assets/CAH.png",
-        tech: "Web Development",
+        type: "Web Development",
         description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
         url: "https://github.com/LeleDallas/Cards-Against-Humanity",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
     {
         title: "Uptune",
         image: "./assets/uptune.png",
-        tech: "Android Application",
+        type: "Mobile (Android) Application",
         description: "",
         url: "https://github.com/LeleDallas/UpTune",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+            "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        ]
     },
     {
         title: "TrackER",
         image: "./assets/tracker.png",
-        tech: "Web Development",
+        type: "Web Development",
         description: "",
         description2: "",
         url: "https://github.com/TrackER-Corporation",
         url2: "https://github.com/DallasCorporation/TrackER",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
     {
         title: "BomberMan",
         image: "./assets/bomber.png",
-        tech: "Software Development",
+        type: "Software Development",
         description: "",
         url: "https://github.com/LeleDallas/BomberMan",
+        tech: ["https://cdn-icons-png.flaticon.com/512/5968/5968282.png"]
     },
     {
         title: "WarVerse",
         image: "./assets/warverse.png",
-        tech: "Software Development",
+        type: "Software Development",
         description: "",
         url: "https://github.com/GZaccaroni/pps-warverse",
+        tech: ["https://cdn-icons-png.flaticon.com/512/6132/6132220.png"]
     },
     {
         title: "skillsfolio",
         image: "./assets/skills.png",
-        tech: "Software Development",
+        type: "Software Development",
         description: "Vite portfolio application deployed within Github Actions",
         url: "https://github.com/LeleDallas/skillsfolio",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
 
 ]
