@@ -100,7 +100,7 @@ export const socialListIcons: Array<SocialObject> = [
 export const bookList: Array<BookObject> = [
     {
         title: "So good they can't ignore you",
-        description: " So Good They Can’t Ignore You sheds some much needed light on the “follow your passion” myth and shows you that the true path to work you love lies in becoming a craftsman of the work you already have, collecting rare skills and taking control of your hours in the process.",
+        description: "So Good They Can’t Ignore You sheds some much needed light on the “follow your passion” myth and shows you that the true path to work you love lies in becoming a craftsman of the work you already have, collecting rare skills and taking control of your hours in the process.",
         category: "Personal Growth",
         author: "Cal Newport",
         image: "./assets/calNewport.png",
@@ -211,47 +211,70 @@ export const experiencesItem: Array<ResumeObject> = [
 export const projects: Array<DataProjectModel> = [
     {
         title: "Cards Against Humanity",
-        image: "./assets/project-1.jpg",
-        tech: "Web Development",
+        image: "./assets/CAH.png",
+        type: "Web Development",
         description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
         url: "https://github.com/LeleDallas/Cards-Against-Humanity",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
     {
         title: "Uptune",
-        image: "./assets/project-1.jpg",
-        tech: "Android Application",
+        image: "./assets/uptune.png",
+        type: "Mobile (Android) Application",
         description: "",
         url: "https://github.com/LeleDallas/UpTune",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+            "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        ]
     },
     {
         title: "TrackER",
-        image: "./assets/project-1.jpg",
-        tech: "Web Development",
+        image: "./assets/tracker.png",
+        type: "Web Development",
         description: "",
         description2: "",
         url: "https://github.com/TrackER-Corporation",
         url2: "https://github.com/DallasCorporation/TrackER",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
     {
         title: "BomberMan",
-        image: "./assets/project-1.jpg",
-        tech: "Software Development",
+        image: "./assets/bomber.png",
+        type: "Software Development",
         description: "",
         url: "https://github.com/LeleDallas/BomberMan",
+        tech: ["https://cdn-icons-png.flaticon.com/512/5968/5968282.png"]
     },
     {
         title: "WarVerse",
-        image: "./assets/project-1.jpg",
-        tech: "Software Development",
+        image: "./assets/warverse.png",
+        type: "Software Development",
         description: "",
         url: "https://github.com/GZaccaroni/pps-warverse",
+        tech: ["https://cdn-icons-png.flaticon.com/512/6132/6132220.png"]
     },
     {
         title: "skillsfolio",
-        image: "./assets/project-1.jpg",
-        tech: "Software Development",
+        image: "./assets/skills.png",
+        type: "Software Development",
         description: "Vite portfolio application deployed within Github Actions",
         url: "https://github.com/LeleDallas/skillsfolio",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://vitest.dev/logo.svg",
+        ]
     },
 
 ]

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import IconFont from "../components/iconfont";
 import { birthday, email, fullName, location, phone, role, socialListIcons } from "../utils";
 
@@ -6,6 +6,7 @@ import { birthday, email, fullName, location, phone, role, socialListIcons } fro
 const Aside = () => {
 
     const [over, setOver] = useState(-1)
+    const [width, setWidth] = useState(0);
 
     const elementToggleFunc = function (elem: Element) {
         elem.classList.toggle("active");
@@ -16,6 +17,12 @@ const Aside = () => {
         if (sidebar)
             elementToggleFunc(sidebar);
     };
+
+
+    useEffect(() => {
+        window.addEventListener("resize", () => setWidth(window.innerWidth))
+        return () => window.removeEventListener("resize", () => setWidth(window.innerWidth))
+    }, []);
 
     return (
         <aside className="sidebar" data-sidebar>
@@ -30,8 +37,9 @@ const Aside = () => {
                     <p className="title">{role}</p>
                 </div>
 
-                <button onClick={sidebarToggle} className="info_more-btn" data-sidebar-btn>
+                <button onClick={sidebarToggle} className="info_more-btn" >
                     <span>Show Contacts</span>
+                    {width < 580 && <IconFont name="see" color={"#006df0"} />}
                 </button>
 
             </div>

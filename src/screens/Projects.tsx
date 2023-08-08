@@ -4,7 +4,7 @@ import IconFont from "../components/iconfont"
 import { projects } from "../utils"
 import ModalProjects from "./ModalProjects"
 
-type Categories = "All" | "Mobile development" | "Applications" | "Web development"
+type Categories = "All" | "Mobile" | "Software" | "Web"
 
 const Projects = ({ active }: ScreenProps) => {
 
@@ -14,7 +14,7 @@ const Projects = ({ active }: ScreenProps) => {
 
     const checkActive = (category: Categories, currentStatus: Categories) => category === currentStatus ? "active" : ""
 
-    const items = ["All", "Mobile development", "Applications", "Web development"]
+    const items = ["All", "Mobile", "Software", "Web"]
 
     return (
         <article
@@ -39,8 +39,6 @@ const Projects = ({ active }: ScreenProps) => {
                             </button>
                         </li>)}
                 </ul>
-
-
                 <div className="filter-select-box">
                     <button className="filter-select" >
                         <div className="select-value" >Select category</div>
@@ -61,7 +59,7 @@ const Projects = ({ active }: ScreenProps) => {
                 </div>
 
                 <ul className="project-list">
-                    {projects.map(project =>
+                    {projects.filter(project => selectedCategory === "All" ? true : project.type.includes(selectedCategory)).map(project =>
                         <li
                             onClick={() => {
                                 setData(project)
@@ -73,17 +71,16 @@ const Projects = ({ active }: ScreenProps) => {
                                     <div className="project-item-icon-box">
                                         <IconFont name="see" size={24} color={"#006df0"} />
                                     </div>
-                                    <img src="./assets/project-1.jpg" alt="finance" loading="lazy" />
+                                    <img src={project.image} alt="finance" loading="lazy" />
                                 </figure>
 
                                 <h3 className="project-title">{project.title}</h3>
-                                <p className="project-category">{project.tech}</p>
+                                <p className="project-category">{project.type}</p>
                             </a>
                         </li>
                     )}
                 </ul>
                 <ModalProjects visible={visible} setVisible={setVisible} data={data} />
-
             </section>
         </article>
     )

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Navbar from './navigator/Navbar'
 import About from './screens/About'
 import Aside from './navigator/Aside'
@@ -11,6 +11,10 @@ import Projects from './screens/Projects'
 function App() {
 
   const [active, setActive] = useState<ActiveNav>("About")
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [active])
 
   return (
     <main>
