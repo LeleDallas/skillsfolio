@@ -100,7 +100,7 @@ export const socialListIcons: Array<SocialObject> = [
 export const bookList: Array<BookObject> = [
     {
         title: "So good they can't ignore you",
-        description: " So Good They Can’t Ignore You sheds some much needed light on the “follow your passion” myth and shows you that the true path to work you love lies in becoming a craftsman of the work you already have, collecting rare skills and taking control of your hours in the process.",
+        description: "So Good They Can’t Ignore You sheds some much needed light on the “follow your passion” myth and shows you that the true path to work you love lies in becoming a craftsman of the work you already have, collecting rare skills and taking control of your hours in the process.",
         category: "Personal Growth",
         author: "Cal Newport",
         image: "./assets/calNewport.png",
@@ -211,21 +211,21 @@ export const experiencesItem: Array<ResumeObject> = [
 export const projects: Array<DataProjectModel> = [
     {
         title: "Cards Against Humanity",
-        image: "./assets/project-1.jpg",
+        image: "./assets/CAH.png",
         tech: "Web Development",
         description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
         url: "https://github.com/LeleDallas/Cards-Against-Humanity",
     },
     {
         title: "Uptune",
-        image: "./assets/project-1.jpg",
+        image: "./assets/uptune.png",
         tech: "Android Application",
         description: "",
         url: "https://github.com/LeleDallas/UpTune",
     },
     {
         title: "TrackER",
-        image: "./assets/project-1.jpg",
+        image: "./assets/tracker.png",
         tech: "Web Development",
         description: "",
         description2: "",
@@ -234,7 +234,7 @@ export const projects: Array<DataProjectModel> = [
     },
     {
         title: "BomberMan",
-        image: "./assets/project-1.jpg",
+        image: "./assets/bomber.png",
         tech: "Software Development",
         description: "",
         url: "https://github.com/LeleDallas/BomberMan",
@@ -248,7 +248,7 @@ export const projects: Array<DataProjectModel> = [
     },
     {
         title: "skillsfolio",
-        image: "./assets/project-1.jpg",
+        image: "./assets/skills.png",
         tech: "Software Development",
         description: "Vite portfolio application deployed within Github Actions",
         url: "https://github.com/LeleDallas/skillsfolio",
