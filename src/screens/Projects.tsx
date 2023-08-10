@@ -29,7 +29,6 @@ const Projects = ({ active }: ScreenProps) => {
             <section className="projects">
 
                 <ul className="filter-list">
-
                     {items.map(item =>
                         <li key={item} className="filter-item">
                             <button
@@ -37,25 +36,16 @@ const Projects = ({ active }: ScreenProps) => {
                                 className={checkActive(item as Categories, selectedCategory)}
                             >{item}
                             </button>
-                        </li>)}
+                        </li>
+                    )}
                 </ul>
                 <div className="filter-select-box">
-                    <button className="filter-select" >
-                        <div className="select-value" >Select category</div>
-                        <div className="select-icon">
-                            <IconFont name="see" />
-                        </div>
-                    </button>
-                    <ul className="select-list">
-                        {items.map(item =>
-                            <li key={item} className="select-item">
-                                <button
-                                    onClick={() => setSelectedCategory(item as Categories)}
-                                    className={checkActive(item as Categories, selectedCategory)}
-                                >{item}
-                                </button>
-                            </li>)}
-                    </ul>
+                    <select
+                        onChange={(item) => setSelectedCategory(item.target.value as Categories)}
+                        placeholder="Select category" className="filter-select">
+                        {items.map(item => <option key={item} value={item}>{item}</option>)}
+                        <IconFont name="see" />
+                    </select>
                 </div>
 
                 <ul className="project-list">
