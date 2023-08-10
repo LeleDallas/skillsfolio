@@ -187,7 +187,12 @@ export const resumeItem: Array<ResumeObject> = [
 
 export const experiencesItem: Array<ResumeObject> = [
     {
-        description: `Responsible for utilizing extensive experience with React, React Native, TypeScript, MERN stack, microservices, GCP and Aveva Hub to build high-performance, responsive web and mobile applications, design and build data connectors for time-series data stores, and automate data analysis and scripting. Skilled in the entire software development lifecycle, from requirements gathering to testing and deployment, and passionate about building high-quality, user-friendly applications while staying up-to-date with the latest developments in the field.`,
+        description: `Engaged in full-cycle software development at a technology startup in the energy sector, from requirements definition to deployment. 
+        I participated in both frontend and backend development for the DERNetSoft application using React, React Native, TypeScript, and the MERN stack. 
+        Crafted secure microservices APIs with standard authentication, compression, and rate limiting. 
+        Developed data connectors for seamless integration with our time-series data store, managing diverse data sources. 
+        Automated company processes and managed GitHub, implementing task automation and DevOps practices. 
+        Led the development of the frontend, mobile, and component library to ensure intuitive interfaces and streamlined processes.`,
         title: "Full Stack Developer at DERNetSoft",
         time: "2020 - Present"
     },
