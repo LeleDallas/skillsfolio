@@ -6,12 +6,8 @@
 
 <h1 align="center"> skillsfolio 💼 🧠 </h1>
 
-<span>
-  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-</span>
-<span>
-  <img alt="Vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
-</span>
+<img src="https://skillicons.dev/icons?i=vite,react,githubactions" alt="logos" />
+
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
