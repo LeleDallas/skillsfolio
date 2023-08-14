@@ -3,12 +3,12 @@ name: Deploy content to Pages
 on:
   push:
     branches: ['main']
-    pull_request:
+  pull_request:
       types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
   pull-requests: write
@@ -45,3 +45,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
