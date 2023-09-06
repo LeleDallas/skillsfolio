@@ -6,8 +6,12 @@
 
 <h1 align="center"> skillsfolio 💼 🧠 </h1>
 
-<img src="https://skillicons.dev/icons?i=vite,react,githubactions" alt="logos" />
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vite,react,githubactions" alt="logos" />
+  </a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
