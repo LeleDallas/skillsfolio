@@ -224,18 +224,18 @@ export const projects: Array<DataProjectModel> = [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
             "https://vitejs.dev/logo-with-shadow.png",
             "https://vitest.dev/logo.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
         ]
     },
     {
         title: "Uptune",
         image: "./assets/uptune.png",
         type: "Mobile (Android) Application",
-        description: "",
+        description: "Android app developed to provide a comprehensive and user-friendly platform for music lovers to purchase and listen to their favorite songs and albums digitally. The project was initiated to address the growing demand for a convenient and customizable music app that can cater to the needs of all music enthusiasts.",
         url: "https://github.com/LeleDallas/UpTune",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://vitejs.dev/logo-with-shadow.png",
-            "https://vitest.dev/logo.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png",
             "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
         ]
     },
@@ -243,21 +243,21 @@ export const projects: Array<DataProjectModel> = [
         title: "TrackER",
         image: "./assets/tracker.png",
         type: "Web Development",
-        description: "",
-        description2: "",
+        description: "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
         url: "https://github.com/TrackER-Corporation",
-        url2: "https://github.com/DallasCorporation/TrackER",
         tech: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
             "https://vitejs.dev/logo-with-shadow.png",
             "https://vitest.dev/logo.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
         ]
     },
     {
         title: "BomberMan",
         image: "./assets/bomber.png",
         type: "Software Development",
-        description: "",
+        description: "Java BomberMan 💣 is an Arcade game where players strategically place bombs to destroy obstacles and eliminate other players. The ultimate goal is to be the last one standing. Along the way, players can pick up power-ups that provide benefits such as larger explosions or the ability to place more bombs at once. However, players must be cautious as they can also be killed by their own bombs or by touching an enemy.",
         url: "https://github.com/LeleDallas/BomberMan",
         tech: ["https://cdn-icons-png.flaticon.com/512/5968/5968282.png"]
     },
@@ -265,20 +265,50 @@ export const projects: Array<DataProjectModel> = [
         title: "WarVerse",
         image: "./assets/warverse.png",
         type: "Software Development",
-        description: "",
+        description: "Warverse is a war simulator among multiple states written in Scala. It allows you to define the participating states, their populations, army units, relationships between them, and available resources. Once the simulation is started, it is updated on a daily basis until all the wars are resolved.",
         url: "https://github.com/GZaccaroni/pps-warverse",
-        tech: ["https://cdn-icons-png.flaticon.com/512/6132/6132220.png"]
+        tech: ["https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",]
     },
     {
         title: "skillsfolio",
         image: "./assets/skills.png",
         type: "Software Development",
-        description: "Vite portfolio application deployed within Github Actions",
+        description: "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
         url: "https://github.com/LeleDallas/skillsfolio",
         tech: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
             "https://vitejs.dev/logo-with-shadow.png",
             "https://vitest.dev/logo.svg",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+        ]
+    },
+    {
+        title: "DERNetSoft Mobile",
+        image: "./assets/mobileDER.png",
+        type: "Mobile Application",
+        description: "The DERNetSoft app helps connect you with your utility data and provides value-added services on top of it, including California's ELRP enrollment and notification system.",
+        android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
+        ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+        ]
+    },
+    {
+        title: "DERNetSoft Web App",
+        image: "./assets/mobileDER.png",
+        type: "Web Development",
+        description: "Software development at a technology startup in the energy sector, from requirements definition to deployment using React, React Native, TypeScript, and the MERN stack.",
+        url: "https://www.dernetsoft.com/",
+        tech: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png",
         ]
     },
 
