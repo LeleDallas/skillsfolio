@@ -52,14 +52,11 @@ const Resume = ({ active }: ScreenProps) =>
                     </li>
                 )}
             </ol>
-
         </section>
-
-        {/* <section className="skill">
-
-            <h3 className="h3 skills-title">Skills - Tools</h3>
-            <div className="skills-list content-card">
+        <figure className="project-img">
+            <div className="project-item-icon-box">
+                <IconFont name="see" size={24} color={"#006df0"} />
             </div>
-        </section> */}
+        </figure>
     </article>
 export default Resume
