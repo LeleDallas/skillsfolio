@@ -80,7 +80,7 @@ const Resume = ({ active }: ScreenProps) => {
                     <button className="modal-close-btn" onClick={() => setVisible(false)}>
                         <IconFont name="close1" color={"white"} size={10} />
                     </button>
-                    <object data="public/assets/ResumeDallAra2023.pdf" type="application/pdf" width="100%" height="100%">
+                    <object data="./assets/ResumeDallAra2023.pdf" type="application/pdf" width="100%" height="100%">
                     </object>
                 </section>
             </div>
