@@ -28,10 +28,11 @@ export interface DataProjectModel {
     title: string
     type: string
     description: string
-    url: string
+    url?: string
+    ios?: string
+    android?: string
     image: string
     description2?: string
-    url2?: string
     tech?: Array<string>
 }
 
