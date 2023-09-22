@@ -10,7 +10,7 @@ const Modal = ({ visible, setVisible, data }: ModalProps) =>
             </button>
             <div className="modal-img-wrapper">
                 <figure className="modal-avatar-box">
-                    <img style={{ padding: 10 }} src={data.image} alt={data.title} width="80" />
+                    <img style={{ padding: 10}} src={data.image} alt={data.title} width="80" />
                 </figure>
                 <img src="./assets/icon-quote.svg" alt="quote icon" />
             </div>
