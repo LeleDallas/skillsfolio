@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/LeleDallas/skillsfolio/compare/v1.0.1...v1.1.0) (2023-09-22)
+
+
+### Features
+
+* **ModalProject:** iOS Android icon, skills ([fbb9699](https://github.com/LeleDallas/skillsfolio/commit/fbb969925cb4f51995e9c4dc073d480138fb141b))
+* **resume:** Pdf ([71b6f7e](https://github.com/LeleDallas/skillsfolio/commit/71b6f7ec54bf0a42d5300452dd2a5d47724cc950))
+* **Resume:** pdf resume embedded ([4fa1841](https://github.com/LeleDallas/skillsfolio/commit/4fa1841715c2d2a8293d2fdb24792332abbf28b6))
+
+
+### Bug Fixes
+
+* **Iconfont:** remove unused import ([951de6c](https://github.com/LeleDallas/skillsfolio/commit/951de6c63db5749c9c52e39241d81b17f79557b0))
+* **Resume:** pdf src ([93cd1cb](https://github.com/LeleDallas/skillsfolio/commit/93cd1cb0ffce17fa95b143dd8ae0d5e65d26a910))
+
 ## [1.0.1](https://github.com/LeleDallas/skillsfolio/compare/v1.0.0...v1.0.1) (2023-09-06)
 
 
