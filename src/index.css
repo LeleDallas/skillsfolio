@@ -35,7 +35,7 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: #006df0;
+  --default-blue: #006df0;
   --vegas-gold: #42a0ff;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -131,12 +131,12 @@ textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: var(--default-blue);
   color: var(--smoky-black);
 }
 
 :focus {
-  outline-color: var(--orange-yellow-crayola);
+  outline-color: var(--default-blue);
 }
 
 html {
@@ -179,7 +179,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -270,7 +270,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: var(--default-blue);
   border-radius: 5px;
 }
 
@@ -361,7 +361,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -499,7 +499,7 @@ main {
 }
 
 .navbar-link.active {
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
 }
 
 /*-----------------------------------*\
@@ -570,6 +570,11 @@ main {
 .service-content-box {
   text-align: center;
 }
+
+.service-content-box>a :hover {
+  color: var(--default-blue);
+}
+
 
 .service-item-title {
   margin-bottom: 7px;
@@ -893,53 +898,6 @@ main {
 }
 
 
-/**
- * skills 
- */
-
-.skills-title {
-  margin-bottom: 20px;
-}
-
-.skills-list {
-  padding: 20px;
-}
-
-
-.skills-item:not(:last-child) {
-  margin-bottom: 15px;
-}
-
-.skill .title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
-}
-
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
-
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
-
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
-}
-
-
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -1066,7 +1024,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1208,7 +1166,7 @@ main {
 }
 
 .blog-post-item>a:hover .blog-item-title {
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
 }
 
 .blog-text {
@@ -1277,7 +1235,7 @@ main {
 }
 
 .form-input:focus {
-  border-color: var(--orange-yellow-crayola);
+  border-color: var(--default-blue);
 }
 
 textarea.form-input {
@@ -1300,7 +1258,7 @@ textarea.form-input::-webkit-resizer {
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--orange-yellow-crayola);
+  color: var(--default-blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1836,7 +1794,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .filter-item button.active {
-    color: var(--orange-yellow-crayola);
+    color: var(--default-blue);
   }
 
   /* portfolio and blog grid */
