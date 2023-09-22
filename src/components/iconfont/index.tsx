@@ -1,7 +1,9 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import { SVGAttributes, FunctionComponent } from 'react';
+import React, { SVGAttributes, FunctionComponent } from 'react';
+import IconPlayStore from './IconPlayStore';
+import IconAApplestore from './IconAApplestore';
 import IconClose from './IconClose';
 import IconClose1 from './IconClose1';
 import IconSubmit from './IconSubmit';
@@ -60,6 +62,8 @@ import IconBiaoqian from './IconBiaoqian';
 import IconShipin from './IconShipin';
 import IconShenhe from './IconShenhe';
 import IconLiaotian from './IconLiaotian';
+export { default as IconPlayStore } from './IconPlayStore';
+export { default as IconAApplestore } from './IconAApplestore';
 export { default as IconClose } from './IconClose';
 export { default as IconClose1 } from './IconClose1';
 export { default as IconSubmit } from './IconSubmit';
@@ -119,7 +123,7 @@ export { default as IconShipin } from './IconShipin';
 export { default as IconShenhe } from './IconShenhe';
 export { default as IconLiaotian } from './IconLiaotian';
 
-export type IconNames = 'close' | 'close1' | 'submit' | 'submit1' | 'see' | 'see1' | 'Mail' | 'see2' | 'see3' | 'icon_see' | 'see-o' | 'phoneiphone' | 'icexperience' | 'github' | 'stackoverflow' | 'linkedin' | 'linkedin-fill' | 'education' | 'education_and_development' | 'stackoverflow1' | 'leetcode' | 'leetcode1' | 'gaishuai' | 'quanxuan' | 'shouye' | 'fenlei' | 'naozhong' | 'shuqian' | 'tupian' | 'fukuan' | 'fuzhi' | 'bianji' | 'dayin' | 'xiaoxi' | 'riqi' | 'xinxi' | 'paizhao' | 'wenjian' | 'ziliao' | 'lipin' | 'shanchu' | 'qianbao' | 'dingdan' | 'erji' | 'dianpu' | 'baocun' | 'shezhi' | 'shangchuan' | 'zixun' | 'faxian' | 'dingwei' | 'xiazai' | 'bianxie' | 'yuyin' | 'biaoqian' | 'shipin' | 'shenhe' | 'liaotian';
+export type IconNames = 'Play-Store' | 'a-applestore' | 'close' | 'close1' | 'submit' | 'submit1' | 'see' | 'see1' | 'Mail' | 'see2' | 'see3' | 'icon_see' | 'see-o' | 'phoneiphone' | 'icexperience' | 'github' | 'stackoverflow' | 'linkedin' | 'linkedin-fill' | 'education' | 'education_and_development' | 'stackoverflow1' | 'leetcode' | 'leetcode1' | 'gaishuai' | 'quanxuan' | 'shouye' | 'fenlei' | 'naozhong' | 'shuqian' | 'tupian' | 'fukuan' | 'fuzhi' | 'bianji' | 'dayin' | 'xiaoxi' | 'riqi' | 'xinxi' | 'paizhao' | 'wenjian' | 'ziliao' | 'lipin' | 'shanchu' | 'qianbao' | 'dingdan' | 'erji' | 'dianpu' | 'baocun' | 'shezhi' | 'shangchuan' | 'zixun' | 'faxian' | 'dingwei' | 'xiazai' | 'bianxie' | 'yuyin' | 'biaoqian' | 'shipin' | 'shenhe' | 'liaotian';
 
 interface Props extends Omit<SVGAttributes<SVGElement>, 'color'> {
   name: IconNames;
@@ -129,6 +133,10 @@ interface Props extends Omit<SVGAttributes<SVGElement>, 'color'> {
 
 const IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
   switch (name) {
+    case 'Play-Store':
+      return <IconPlayStore {...rest} />;
+    case 'a-applestore':
+      return <IconAApplestore {...rest} />;
     case 'close':
       return <IconClose {...rest} />;
     case 'close1':
