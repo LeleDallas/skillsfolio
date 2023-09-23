@@ -30,6 +30,11 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LeleDallas_skillsfolio&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LeleDallas_skillsfolio)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeleDallas_skillsfolio&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeleDallas_skillsfolio)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=LeleDallas_skillsfolio&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=LeleDallas_skillsfolio)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LeleDallas_skillsfolio&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LeleDallas_skillsfolio)
+
 <p align="justify"> 
 skillsfolio is a fully responsive personal portfolio website, responsive for all devices, built using React with Vite.
 </p>
