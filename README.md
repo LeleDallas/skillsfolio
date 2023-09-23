@@ -45,7 +45,7 @@ Check the Live Demo [here](https://leledallas.github.io/skillsfolio/)
 <!-- GETTING STARTED -->
 <h2 id="getting-started"> :book: Getting Started</h2>
 
-If you wanna edit and them deploy your portfolio, via GitHub Desktop clone this repository then follow these instruction.
+If you wanna edit and then deploy your portfolio, via GitHub Desktop clone this repository and then follow these instruction.
 
 ⚠️‼️You need to have Node.js `v18.15.0` or higher installed on your system‼️⚠️
 
