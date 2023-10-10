@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/LeleDallas/skillsfolio/compare/v1.1.0...v1.1.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* **resume:** missing text ([51dffed](https://github.com/LeleDallas/skillsfolio/commit/51dffed4661345aa88410f00e757ea0288da93c3))
+
 ## [1.1.0](https://github.com/LeleDallas/skillsfolio/compare/v1.0.1...v1.1.0) (2023-09-22)
 
 
