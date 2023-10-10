@@ -193,11 +193,11 @@ export const experiencesItem: Array<ResumeObject> = [
         Developed data connectors for seamless integration with our time-series data store, managing diverse data sources. 
         Automated company processes and managed GitHub, implementing task automation and DevOps practices. 
         Led the development of the frontend, mobile, and component library to ensure intuitive interfaces and streamlined processes.`,
-        title: "Full Stack Developer at DERNetSoft",
-        time: "2020 - Present"
+        title: "Software Engineer at DERNetSoft",
+        time: "Nov 2020 - Oct 2023"
     },
     {
-        title: "at FabLabRomagna",
+        title: "Internship IoT Developer Developer at FabLabRomagna",
         description: `Designing and creating a web radio using Volumio software, a Raspberry PI board, and a 3D printed case manufactured with AutoCAD, providing a customized and interactive radio experience.`,
         time: "Feb 2018 - Mar 2018"
     },
