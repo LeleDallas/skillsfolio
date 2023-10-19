@@ -170,7 +170,7 @@ export const bookList: Array<BookObject> = [
 export const resumeItem: Array<ResumeObject> = [
     {
         description: "Alma Mater Studiorum, University of Bologna",
-        title: "Second cycle degree/two year master in Computer Science and Engineering",
+        title: "Master in Computer Science and Engineering",
         time: "2021 - 2023"
     },
     {
