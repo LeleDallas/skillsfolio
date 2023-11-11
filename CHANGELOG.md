@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/LeleDallas/skillsfolio/compare/v1.1.1...v1.1.2) (2023-11-08)
+
+
+### Bug Fixes
+
+* **Resume:** typo label ([0468697](https://github.com/LeleDallas/skillsfolio/commit/0468697da234cdadb88d50b936ffcb41912700ae))
+
 ## [1.1.1](https://github.com/LeleDallas/skillsfolio/compare/v1.1.0...v1.1.1) (2023-10-10)
 
 
