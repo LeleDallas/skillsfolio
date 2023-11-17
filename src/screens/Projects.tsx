@@ -16,6 +16,10 @@ const Projects = ({ active }: ScreenProps) => {
 
     const items = ["All", "Mobile", "Software", "Web"]
 
+    const onClick = (project: DataProjectModel) => {
+        setData(project)
+        setVisible(true)
+    }
     return (
         <article
             style={{ padding: "30px" }}
@@ -51,10 +55,8 @@ const Projects = ({ active }: ScreenProps) => {
                 <ul className="project-list">
                     {projects.filter(project => selectedCategory === "All" ? true : project.type.includes(selectedCategory)).map(project =>
                         <li
-                            onClick={() => {
-                                setData(project)
-                                setVisible(true)
-                            }}
+                            onKeyDown={() => onClick(project)}
+                            onClick={() => onClick(project)}
                             key={project.title} className="project-item  active">
                             <a href="#">
                                 <figure className="project-img">
