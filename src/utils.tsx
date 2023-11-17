@@ -215,6 +215,19 @@ export const experiencesItem: Array<ResumeObject> = [
 
 export const projects: Array<DataProjectModel> = [
     {
+        title: "TODO-list",
+        image: "./assets/todo.png",
+        type: "Web Development",
+        description: "The TODO-list is a versatile and fully responsive application designed to help you manage your tasks and stay organized efficiently.",
+        url: "https://github.com/LeleDallas/TODO-list",
+        tech: [
+            "https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "https://vitejs.dev/logo-with-shadow.png",
+            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+        ]
+    },
+    {
         title: "Cards Against Humanity",
         image: "./assets/CAH.png",
         type: "Web Development",
