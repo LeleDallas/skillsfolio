@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/LeleDallas/skillsfolio/compare/v1.1.2...v1.2.0) (2023-11-17)
+
+
+### Features
+
+* TODO project ([5db0d6a](https://github.com/LeleDallas/skillsfolio/commit/5db0d6a7b6ee3d678b11546fb607f25b2f8303a5))
+
+
+### Bug Fixes
+
+* duplicated lines ([bd307aa](https://github.com/LeleDallas/skillsfolio/commit/bd307aa410a0e2bf1ac82b215f3db47b317d7635))
+* Reliability issue ([9a3ea18](https://github.com/LeleDallas/skillsfolio/commit/9a3ea181ee9af3a29f8959f6247010ddca99478c))
+
 ## [1.1.2](https://github.com/LeleDallas/skillsfolio/compare/v1.1.1...v1.1.2) (2023-11-08)
 
 
