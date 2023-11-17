@@ -11,6 +11,19 @@ export const descriptionDetails = `I love building high-performance web and mobi
 Keeping up with the latest trends in the industry is a priority, ensuring I always deliver top-notch, user-friendly solutions.
 \nLet's collaborate and create something amazing together!`
 
+const imagesLogo = {
+    githubAction: "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+    bun: "https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png",
+    react: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    vite: "https://vitejs.dev/logo-with-shadow.png",
+    vitest: "https://vitest.dev/logo.svg",
+    java: "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+    scala: "https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
+    socket: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
+    android: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png",
+    jest: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
+    python: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+}
 
 
 export const navbarItems = ["About", "Resume", "Projects", "Bookshelf", "Contact"]
@@ -40,31 +53,31 @@ export const serviceItems = [
 
 export const technologiesItems: Array<DataModel> = [
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+        image: imagesLogo.react,
         title: "React/React Native",
         description: "I've leveraged the power of React and React Native to build dynamic and responsive web applications and mobile experiences. With React's component-based architecture, I crafted efficient and reusable UI components that ensured a smooth user interface across various devices and screen sizes. Whether it's developing feature-rich web applications or creating immersive mobile apps for both iOS and Android, I pride myself on delivering top-notch solutions that blend the best of modern technology and user-centric design.",
         purpose: "---"
     },
     {
-        image: "https://vitejs.dev/logo-with-shadow.png",
+        image: imagesLogo.vite,
         title: "Vite",
         description: "Taken web development to the next level, delivering blazing-fast and highly performant applications. By harnessing Vite's lightning-fast build system, I've optimized the development workflow, reducing build times significantly. This allowed me to focus on crafting efficient, modern, and feature-rich web applications without compromising on speed or user experience. Embracing Vite's simplicity and versatility, I've successfully built projects that showcase the true potential of cutting-edge web technologies, providing seamless user interactions and a delightful browsing experience.",
         purpose: "---"
     },
     {
-        image: "https://vitest.dev/logo.svg",
+        image: imagesLogo.vitest,
         title: "Vitest",
         description: "Elevated the quality and reliability of my JavaScript and React Vite projects. As a powerful testing framework, Vitest has allowed me to write comprehensive test suites, ensuring that my code functions as expected and remains resilient to changes. By employing Vitest snapshot testing, I've effortlessly detected regressions and maintained code consistency across iterations. Whether writing unit tests, integration tests, or UI component tests, Vitest has been an invaluable tool in my toolkit, helping me deliver robust and bug-free applications.",
         purpose: "---"
     },
     {
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        image: imagesLogo.java,
         title: "Java",
         description: "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. Java's object-oriented nature allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through Java's vast ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my Java expertise has driven the development of powerful software that addresses diverse business needs.",
         purpose: "---"
     },
     {
-        image: "https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
+        image: imagesLogo.scala,
         title: "Scala",
         description: "I've embraced the power of functional programming and object-oriented paradigms to build elegant and scalable applications. Scala's expressive syntax and strong type system allowed me to write concise and readable code, facilitating rapid development without sacrificing safety. Leveraging its seamless integration with Java, I've harnessed existing Java libraries and ecosystems while enjoying the benefits of functional programming offered by Scala. From building high-performance backend services to creating data-intensive applications, Scala has been my language of choice for crafting innovative solutions that push the boundaries of modern software development.",
         purpose: "---"
@@ -221,10 +234,10 @@ export const projects: Array<DataProjectModel> = [
         description: "The TODO-list is a versatile and fully responsive application designed to help you manage your tasks and stay organized efficiently.",
         url: "https://github.com/LeleDallas/TODO-list",
         tech: [
-            "https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://vitejs.dev/logo-with-shadow.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            imagesLogo.bun,
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.githubAction,
         ]
     },
     {
@@ -234,11 +247,11 @@ export const projects: Array<DataProjectModel> = [
         description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
         url: "https://github.com/LeleDallas/Cards-Against-Humanity",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://vitejs.dev/logo-with-shadow.png",
-            "https://vitest.dev/logo.svg",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.socket,
+            imagesLogo.githubAction,
         ]
     },
     {
@@ -248,8 +261,8 @@ export const projects: Array<DataProjectModel> = [
         description: "Android app developed to provide a comprehensive and user-friendly platform for music lovers to purchase and listen to their favorite songs and albums digitally. The project was initiated to address the growing demand for a convenient and customizable music app that can cater to the needs of all music enthusiasts.",
         url: "https://github.com/LeleDallas/UpTune",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png",
-            "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+            imagesLogo.android,
+            imagesLogo.java,
         ]
     },
     {
@@ -259,11 +272,11 @@ export const projects: Array<DataProjectModel> = [
         description: "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
         url: "https://github.com/TrackER-Corporation",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://vitejs.dev/logo-with-shadow.png",
-            "https://vitest.dev/logo.svg",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.socket,
+            imagesLogo.githubAction,
         ]
     },
     {
@@ -272,7 +285,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Software Development",
         description: "Java BomberMan 💣 is an Arcade game where players strategically place bombs to destroy obstacles and eliminate other players. The ultimate goal is to be the last one standing. Along the way, players can pick up power-ups that provide benefits such as larger explosions or the ability to place more bombs at once. However, players must be cautious as they can also be killed by their own bombs or by touching an enemy.",
         url: "https://github.com/LeleDallas/BomberMan",
-        tech: ["https://cdn-icons-png.flaticon.com/512/5968/5968282.png"]
+        tech: [imagesLogo.java]
     },
     {
         title: "WarVerse",
@@ -280,8 +293,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Software Development",
         description: "Warverse is a war simulator among multiple states written in Scala. It allows you to define the participating states, their populations, army units, relationships between them, and available resources. Once the simulation is started, it is updated on a daily basis until all the wars are resolved.",
         url: "https://github.com/GZaccaroni/pps-warverse",
-        tech: ["https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",]
+        tech: [imagesLogo.scala, imagesLogo.githubAction,]
     },
     {
         title: "skillsfolio",
@@ -290,10 +302,10 @@ export const projects: Array<DataProjectModel> = [
         description: "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
         url: "https://github.com/LeleDallas/skillsfolio",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://vitejs.dev/logo-with-shadow.png",
-            "https://vitest.dev/logo.svg",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.githubAction,
         ]
     },
     {
@@ -304,10 +316,10 @@ export const projects: Array<DataProjectModel> = [
         android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
         ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            imagesLogo.react,
             "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+           imagesLogo.jest,
+            imagesLogo.githubAction,
         ]
     },
     {
@@ -317,10 +329,10 @@ export const projects: Array<DataProjectModel> = [
         description: "Software development at a technology startup in the energy sector, from requirements definition to deployment using React, React Native, TypeScript, and the MERN stack.",
         url: "https://www.dernetsoft.com/",
         tech: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
-            "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
+            imagesLogo.react,
+            imagesLogo.jest,
+            imagesLogo.python,
+            imagesLogo.githubAction,
             "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png",
         ]
     },
