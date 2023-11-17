@@ -8,6 +8,11 @@ const About = ({ active }: ScreenProps) => {
     const [visible, setVisible] = useState(false)
     const [data, setData] = useState<DataModel>(technologiesItems[0])
 
+    const onClick = (technology: DataModel) => {
+        setVisible(true)
+        setData(technology)
+    }
+
     return (
         <article
             style={{ padding: "30px" }}
@@ -49,10 +54,8 @@ const About = ({ active }: ScreenProps) => {
                 <ul className="testimonials-list has-scrollbar">
                     {technologiesItems.map(technology =>
                         <li key={technology.title}
-                            onClick={() => {
-                                setVisible(true)
-                                setData(technology)
-                            }}
+                            onKeyDown={() => onClick(technology)}
+                            onClick={() => onClick(technology)}
                             className="testimonials-item"
                         >
                             <div className="content-card">

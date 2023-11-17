@@ -8,7 +8,7 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
     const [overIos, setOverIos] = useState(false)
     return (
         <div className={visible ? "modal-container active" : "modal-container"}  >
-            <div className={visible ? "overlay active" : "overlay"} onClick={() => setVisible(false)} />
+            <div className={visible ? "overlay active" : "overlay"} onKeyDown={() => setVisible(false)} onClick={() => setVisible(false)} />
             <section style={{ width: 1050 }} className="testimonials-modal">
                 <button className="modal-close-btn" onClick={() => setVisible(false)}>
                     <IconFont name="close1" color={"white"} size={10} />

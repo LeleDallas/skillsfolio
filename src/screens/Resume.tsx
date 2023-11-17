@@ -59,6 +59,7 @@ const Resume = ({ active }: ScreenProps) => {
                     <div className="service-content-box">
                         <a href="#">
                             <h4 onClick={() => setVisible(true)}
+                                onKeyDown={() => setVisible(true)}
                                 className="h4 service-item-title"
                                 style={{ textAlign: "center" }}>
                                 Check full resume
@@ -66,6 +67,7 @@ const Resume = ({ active }: ScreenProps) => {
                         </a>
                         <a href="#">
                             <p onClick={downloadPdfResume}
+                                onKeyDown={downloadPdfResume}
                                 className="service-item-text"
                                 style={{ textAlign: "center" }}>
                                 Download resume
@@ -75,7 +77,10 @@ const Resume = ({ active }: ScreenProps) => {
                 </div>
             </section>
             <div className={visible ? "modal-container active" : "modal-container"}  >
-                <div className={visible ? "overlay active" : "overlay"} onClick={() => setVisible(false)} />
+                <div className={visible ? "overlay active" : "overlay"}
+                    onKeyDown={() => setVisible(false)}
+                    onClick={() => setVisible(false)}
+                />
                 <section style={{ width: 1050, height: 680, }} className="testimonials-modal">
                     <button className="modal-close-btn" onClick={() => setVisible(false)}>
                         <IconFont name="close1" color={"white"} size={10} />
