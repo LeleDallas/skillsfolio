@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/LeleDallas/skillsfolio/compare/v1.2.0...v1.2.1) (2023-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v11.2.0 ([71f3ddb](https://github.com/LeleDallas/skillsfolio/commit/71f3ddba84def6b0cfe47b99a6d3e90300137555))
+
 ## [1.2.0](https://github.com/LeleDallas/skillsfolio/compare/v1.1.2...v1.2.0) (2023-11-17)
 
 
