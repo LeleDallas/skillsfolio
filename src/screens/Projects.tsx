@@ -46,7 +46,7 @@ const Projects = ({ active }: ScreenProps) => {
                 <div className="filter-select-box">
                     <select
                         onChange={(item) => setSelectedCategory(item.target.value as Categories)}
-                        placeholder="Select category" className="filter-select">
+                        className="filter-select">
                         {items.map(item => <option key={item} value={item}>{item}</option>)}
                         <IconFont name="see" />
                     </select>

@@ -4,7 +4,7 @@ import { ModalProjectProps } from "../types"
 
 const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
     const [overGithub, setOverGithub] = useState(false)
-    const [overAndoird, setOverAndroid] = useState(false)
+    const [overAndroid, setOverAndroid] = useState(false)
     const [overIos, setOverIos] = useState(false)
     return (
         <div className={visible ? "modal-container active" : "modal-container"}  >
@@ -38,7 +38,7 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                             <a href={data.android} target="_blank" className="social-link">
                                 <IconFont
                                     style={{ marginRight: 5 }}
-                                    color={overAndoird ? "white" : "gray"}
+                                    color={overAndroid ? "white" : "gray"}
                                     name={"Play-Store"}
                                     size={35}
                                     onMouseOver={() => setOverAndroid(true)}

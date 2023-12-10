@@ -12,7 +12,7 @@ const Contact = ({ active }: ScreenProps) =>
         <section className="mapbox" >
             <figure>
                 <iframe
-                    src="https://www.google.com/maps/embed/v1/place?q=Cesena,+FC,+Italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                    src={`https://www.google.com/maps/embed/v1/place?q=Cesena,+FC,+Italia&key=${import.meta.env.VITE_GOOGLE_API_KEY}`}
                     width="400" height="300" loading="lazy"></iframe>
             </figure>
         </section>
