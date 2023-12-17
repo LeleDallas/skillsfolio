@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/LeleDallas/skillsfolio/compare/v1.2.1...v1.2.2) (2023-12-17)
+
+
+### Bug Fixes
+
+* hide map secret, removed placeholder ([b4adf02](https://github.com/LeleDallas/skillsfolio/commit/b4adf02ebf15ee65a2476539b7791ec461024a3f))
+
 ## [1.2.1](https://github.com/LeleDallas/skillsfolio/compare/v1.2.0...v1.2.1) (2023-11-30)
 
 
