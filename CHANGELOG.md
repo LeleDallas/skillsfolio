@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/LeleDallas/skillsfolio/compare/v1.2.2...v1.2.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* **chore:** action version ([d6653ea](https://github.com/LeleDallas/skillsfolio/commit/d6653ea758e178f699fcb95eb4d8b4149716b14d))
+* **deps:** update dependency @ant-design/icons to v5.3.0 ([b929a56](https://github.com/LeleDallas/skillsfolio/commit/b929a562ee2308968ef2aa84737d99f8b160b054))
+
 ## [1.2.2](https://github.com/LeleDallas/skillsfolio/compare/v1.2.1...v1.2.2) (2023-12-17)
 
 
