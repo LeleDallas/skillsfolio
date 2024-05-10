@@ -23,31 +23,32 @@ const imagesLogo = {
     android: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png",
     jest: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
     python: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    sonarCloud: "https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png"
 }
 
 
-export const navbarItems = ["About", "Resume", "Projects", "Bookshelf", "Contact"]
+export const navbarItems = ["About", "Resume", "Projects", "Bookshelf"]
 
 export const serviceItems = [
     {
         image: "./assets/icon-dev.svg",
         title: "Software development",
-        text: "Excellence in Software Development: Creating modern, high-quality solutions with a professional touch."
+        text: "Creating modern, high-quality solutions with a professional touch and a user-centric approach"
     },
     {
         image: "./assets/icon-mobile.svg",
         title: "Mobile App Developer",
-        text: "Transforming ideas into polished mobile applications for iOS and Android, backed by professional expertise."
+        text: "Transforming ideas into polished mobile applications for iOS and Android"
     },
     {
         image: "./assets/icon-design.svg",
         title: "UI/UX Designer",
-        text: "Crafting cutting-edge UI/UX experiences, where innovation meets professionalism."
+        text: "Crafting intuitive and visually appealing user interfaces for seamless user experiences"
     },
     {
         image: "./assets/icon-ci.svg",
         title: "DevOps",
-        text: "Empowering Agile Software Development through DevOps with Continuous Integration"
+        text: "Implementing CI/CD pipelines to automate the development and deployment process"
     },
 ]
 
@@ -56,38 +57,53 @@ export const technologiesItems: Array<DataModel> = [
         image: imagesLogo.react,
         title: "React/React Native",
         description: "I've leveraged the power of React and React Native to build dynamic and responsive web applications and mobile experiences. With React's component-based architecture, I crafted efficient and reusable UI components that ensured a smooth user interface across various devices and screen sizes. Whether it's developing feature-rich web applications or creating immersive mobile apps for both iOS and Android, I pride myself on delivering top-notch solutions that blend the best of modern technology and user-centric design.",
-        purpose: "---"
+
     },
     {
         image: imagesLogo.vite,
         title: "Vite",
         description: "Taken web development to the next level, delivering blazing-fast and highly performant applications. By harnessing Vite's lightning-fast build system, I've optimized the development workflow, reducing build times significantly. This allowed me to focus on crafting efficient, modern, and feature-rich web applications without compromising on speed or user experience. Embracing Vite's simplicity and versatility, I've successfully built projects that showcase the true potential of cutting-edge web technologies, providing seamless user interactions and a delightful browsing experience.",
-        purpose: "---"
+
     },
     {
         image: imagesLogo.vitest,
         title: "Vitest",
         description: "Elevated the quality and reliability of my JavaScript and React Vite projects. As a powerful testing framework, Vitest has allowed me to write comprehensive test suites, ensuring that my code functions as expected and remains resilient to changes. By employing Vitest snapshot testing, I've effortlessly detected regressions and maintained code consistency across iterations. Whether writing unit tests, integration tests, or UI component tests, Vitest has been an invaluable tool in my toolkit, helping me deliver robust and bug-free applications.",
-        purpose: "---"
+
     },
     {
         image: imagesLogo.java,
         title: "Java",
         description: "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. Java's object-oriented nature allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through Java's vast ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my Java expertise has driven the development of powerful software that addresses diverse business needs.",
-        purpose: "---"
+
     },
     {
         image: imagesLogo.scala,
         title: "Scala",
         description: "I've embraced the power of functional programming and object-oriented paradigms to build elegant and scalable applications. Scala's expressive syntax and strong type system allowed me to write concise and readable code, facilitating rapid development without sacrificing safety. Leveraging its seamless integration with Java, I've harnessed existing Java libraries and ecosystems while enjoying the benefits of functional programming offered by Scala. From building high-performance backend services to creating data-intensive applications, Scala has been my language of choice for crafting innovative solutions that push the boundaries of modern software development.",
-        purpose: "---"
+
     },
     {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
         title: "Python",
         description: "I've harnessed the immense potential of machine learning, driving data-driven insights and predictive capabilities. Leveraging popular libraries such as TensorFlow and Scikit-learn, I've developed cutting-edge machine learning models for various applications, from image recognition to natural language processing. Python's versatility and extensive libraries have also enabled me to automate operational tasks, streamlining processes and improving overall efficiency. Moreover, I've utilized Python for forecasting and data analysis, empowering businesses with valuable foresight and informed decision-making. As a Python enthusiast, I've leveraged its capabilities to create innovative solutions that optimize workflows, extract meaningful patterns from data, and make businesses future-ready.",
-        purpose: "---"
+
     },
+    {
+        image: "https://www.svgrepo.com/show/331488/mongodb.svg",
+        title: "MongoDB",
+        description: "I've harnessed the power of MongoDB to build scalable and high-performance databases that drive modern applications. By leveraging MongoDB's flexible document-based data model, I've designed efficient and responsive databases that adapt to evolving application requirements. With MongoDB's distributed architecture and horizontal scaling capabilities, I've ensured that applications can handle large volumes of data and user requests with ease. Additionally, I've utilized MongoDB's aggregation framework and indexing features to optimize query performance and enhance data retrieval speed. With MongoDB, I've developed robust and reliable databases that underpin modern applications, providing seamless data storage and retrieval functionalities.",
+    },
+    {
+        image: "https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
+        title: "Firebase",
+        description: "I've leveraged Firebase's powerful suite of tools to build real-time applications with seamless user experiences. By integrating Firebase's authentication services, I've implemented secure user authentication and authorization mechanisms, ensuring data privacy and user trust. Leveraging Firebase's real-time database and cloud functions, I've developed responsive and dynamic applications that update in real-time, providing users with up-to-date information and interactive experiences. Additionally, I've utilized Firebase's hosting and storage services to deploy web applications and store media assets, ensuring scalability and reliability. With Firebase, I've created modern and engaging applications that deliver exceptional user experiences and drive user engagement.",
+    },
+    {
+        image: imagesLogo.sonarCloud,
+        title: "SonarCloud/SonaQube",
+        description: "I've implemented SonarCloud and SonarQube to ensure code quality and maintainability in my projects. By integrating these tools into the development workflow, I've performed continuous code analysis, identifying bugs, vulnerabilities, and code smells early in the development process. Leveraging SonarCloud's cloud-based platform and SonarQube's on-premises solution, I've monitored code quality metrics, tracked technical debt, and enforced coding standards across projects. Through automated code reviews and quality gates, I've maintained high-quality codebases, reduced technical debt, and improved overall code maintainability. With SonarCloud and SonarQube, I've established a culture of code quality and reliability, ensuring that my projects meet the highest standards of software development.",
+    }
 ]
 
 export const socialListIcons: Array<SocialObject> = [
@@ -200,6 +216,19 @@ export const resumeItem: Array<ResumeObject> = [
 
 export const experiencesItem: Array<ResumeObject> = [
     {
+        description: `Design, develop, test and deploy design features in a timely manner maintaining brand consistency throughout the design process.
+        Spearheaded the migration of our project from Create React App (CRA) to Vite, which led to significant performance enhancements and expedited build times.       
+        Introduced clean code practices and principles to bolster code quality and maintainability. 
+        Implement unit tests with Vitest to ensure the reliability and robustness of the codebase.
+        Setup CI/CD pipelines with BitBucket to automate the build and deployment process with an automated versioning and changelog generation, which streamlined the release process and enhanced project documentation.
+        Implemented SonarQube for continuous inspection of code quality, managing code security, bugs, and technical debt. This led to improved code maintainability and reliability.
+        Led the creation of a centralized Storybook project, optimizing component documentation and streamlining collaboration. Significantly improved design workflows and resource management for enhanced productivity.
+        Implemented WebSockets with SignalR for real-time notifications, enhancing user experience and engagement.
+        In collaboration with the team, I ensured the on-time delivery of features and updates.`,
+        title: "Software Engineer at myDev S.R.L",
+        time: "Dec 2023 - Now"
+    },
+    {
         description: `Engaged in full-cycle software development at a technology startup in the energy sector, from requirements definition to deployment. 
         I participated in both frontend and backend development for the DERNetSoft application using React, React Native, TypeScript, and the MERN stack. 
         Crafted secure microservices APIs with standard authentication, compression, and rate limiting. 
@@ -228,6 +257,20 @@ export const experiencesItem: Array<ResumeObject> = [
 
 export const projects: Array<DataProjectModel> = [
     {
+        title: "myVem",
+        image: "./assets/myDev.png",
+        type: "Web Development",
+        description: "myVem is the cloud service orchestration platform created by VEM Sistemi, which allows you to monitor and manage technological complexity.",
+        url: "https://myvem.com/",
+        tech: [
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            "https://www.freshleafmedia.co.uk/assets/media/bitbucket-pipeline_blogThumb.png",
+            "https://camo.githubusercontent.com/7756f4d96fbae10fad3ffb32fe76b870f037f5d3c77050786ff2d70b7c25d26c/68747470733a2f2f646f63732e6d6963726f736f66742e636f6d2f73762d73652f617a7572652f6d656469612f696e6465782f617a7572652d7369676e616c722e737667"
+        ]
+    },
+    {
         title: "TODO-list",
         image: "./assets/todo.png",
         type: "Web Development",
@@ -237,6 +280,7 @@ export const projects: Array<DataProjectModel> = [
             imagesLogo.bun,
             imagesLogo.react,
             imagesLogo.vite,
+            imagesLogo.sonarCloud,
             imagesLogo.githubAction,
         ]
     },
@@ -251,8 +295,47 @@ export const projects: Array<DataProjectModel> = [
             imagesLogo.vite,
             imagesLogo.vitest,
             imagesLogo.socket,
+            imagesLogo.sonarCloud,
             imagesLogo.githubAction,
         ]
+    },
+    {
+        title: "DERNetSoft Mobile",
+        image: "./assets/mobileDER.png",
+        type: "Mobile Application",
+        description: "The DERNetSoft app helps connect you with your utility data and provides value-added services on top of it, including California's ELRP enrollment and notification system.",
+        android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
+        ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
+        tech: [
+            imagesLogo.react,
+            "https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
+            imagesLogo.jest,
+            imagesLogo.githubAction,
+        ]
+    },
+
+    {
+        title: "TrackER",
+        image: "./assets/tracker.png",
+        type: "Web Development",
+        description: "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
+        url: "https://github.com/TrackER-Corporation",
+        tech: [
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.socket,
+            imagesLogo.sonarCloud,
+            imagesLogo.githubAction,
+        ]
+    },
+    {
+        title: "WarVerse",
+        image: "./assets/warverse.png",
+        type: "Software Development",
+        description: "Warverse is a war simulator among multiple states written in Scala. It allows you to define the participating states, their populations, army units, relationships between them, and available resources. Once the simulation is started, it is updated on a daily basis until all the wars are resolved.",
+        url: "https://github.com/GZaccaroni/pps-warverse",
+        tech: [imagesLogo.scala, imagesLogo.githubAction, imagesLogo.sonarCloud]
     },
     {
         title: "Uptune",
@@ -266,61 +349,12 @@ export const projects: Array<DataProjectModel> = [
         ]
     },
     {
-        title: "TrackER",
-        image: "./assets/tracker.png",
-        type: "Web Development",
-        description: "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
-        url: "https://github.com/TrackER-Corporation",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.socket,
-            imagesLogo.githubAction,
-        ]
-    },
-    {
         title: "BomberMan",
         image: "./assets/bomber.png",
         type: "Software Development",
         description: "Java BomberMan 💣 is an Arcade game where players strategically place bombs to destroy obstacles and eliminate other players. The ultimate goal is to be the last one standing. Along the way, players can pick up power-ups that provide benefits such as larger explosions or the ability to place more bombs at once. However, players must be cautious as they can also be killed by their own bombs or by touching an enemy.",
         url: "https://github.com/LeleDallas/BomberMan",
         tech: [imagesLogo.java]
-    },
-    {
-        title: "WarVerse",
-        image: "./assets/warverse.png",
-        type: "Software Development",
-        description: "Warverse is a war simulator among multiple states written in Scala. It allows you to define the participating states, their populations, army units, relationships between them, and available resources. Once the simulation is started, it is updated on a daily basis until all the wars are resolved.",
-        url: "https://github.com/GZaccaroni/pps-warverse",
-        tech: [imagesLogo.scala, imagesLogo.githubAction,]
-    },
-    {
-        title: "skillsfolio",
-        image: "./assets/skills.png",
-        type: "Software Development",
-        description: "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
-        url: "https://github.com/LeleDallas/skillsfolio",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.githubAction,
-        ]
-    },
-    {
-        title: "DERNetSoft Mobile",
-        image: "./assets/mobileDER.png",
-        type: "Mobile Application",
-        description: "The DERNetSoft app helps connect you with your utility data and provides value-added services on top of it, including California's ELRP enrollment and notification system.",
-        android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
-        ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
-        tech: [
-            imagesLogo.react,
-            "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
-           imagesLogo.jest,
-            imagesLogo.githubAction,
-        ]
     },
     {
         title: "DERNetSoft Web App",
@@ -336,11 +370,24 @@ export const projects: Array<DataProjectModel> = [
             "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png",
         ]
     },
-
+    {
+        title: "skillsfolio",
+        image: "./assets/skills.png",
+        type: "Software Development",
+        description: "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
+        url: "https://github.com/LeleDallas/skillsfolio",
+        tech: [
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.sonarCloud,
+            imagesLogo.githubAction,
+        ]
+    },
 ]
 
 export const downloadPdfResume = () => {
-    fetch('public/assets/ResumeDallAra2023.pdf').then(response => {
+    fetch('public/assets/ResumeDallAra.pdf').then(response => {
         response.blob().then(blob => {
             const fileURL = window.URL.createObjectURL(blob);
             const alink = document.createElement('a');
