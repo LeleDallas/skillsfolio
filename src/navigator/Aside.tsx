@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import IconFont from "../components/iconfont";
 import { birthday, email, fullName, location, phone, role, socialListIcons } from "../utils";
 
-
 const Aside = () => {
 
     const [over, setOver] = useState(-1)

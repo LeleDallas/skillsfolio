@@ -41,7 +41,6 @@ const Resume = ({ active }: ScreenProps) => {
                     <div className="icon-box">
                         <IconFont name="icexperience" size={24} color={"#006df0"} />
                     </div>
-
                     <h3 className="h3">Experience</h3>
                 </div>
                 <ol className="timeline-list">

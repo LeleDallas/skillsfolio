@@ -27,11 +27,8 @@ const About = ({ active }: ScreenProps) => {
                 <p>{description}</p>
                 <p style={{ whiteSpace: "break-spaces" }}>{descriptionDetails}</p>
             </section>
-
             <section className="service">
-
                 <h3 className="h3 service-title">What I'm doing</h3>
-
                 <ul className="service-list">
                     {serviceItems.map(service =>
                         <li className="service-item" key={service.title}>
@@ -46,9 +43,7 @@ const About = ({ active }: ScreenProps) => {
                         </li>
                     )}
                 </ul>
-
             </section>
-
             <section className="testimonials">
                 <h3 className="h3 testimonials-title">Tech Stack</h3>
                 <ul className="testimonials-list has-scrollbar">
