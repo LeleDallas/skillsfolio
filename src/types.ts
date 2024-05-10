@@ -15,7 +15,6 @@ export interface DataModel {
     title: string
     description: string
     image: string
-    purpose?: string
 }
 
 export interface ModalProps {

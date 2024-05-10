@@ -16,7 +16,6 @@ const Modal = ({ visible, setVisible, data }: ModalProps) =>
             </div>
             <div className="modal-content">
                 <h4 className="h3 modal-title" >{data.title}</h4>
-                <time>{data?.purpose}</time>
                 <div data-modal-text>
                     <p>{data.description}</p>
                 </div>

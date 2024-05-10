@@ -17,10 +17,10 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                     <figure className="modal-avatar-box" >
                         <img style={{ padding: 10, width: 350, borderRadius: 20 }} src={data.image} alt={data.title} />
                     </figure>
-                    <div style={{ marginTop: 22, display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                    <div style={{ marginTop: 22, display: "flex", flexDirection: "row", justifyContent: "space-between", gap: 10 }}>
                         {data.tech?.map((technology) =>
                             <img
-                                style={{ marginRight: 5, width: 35, height: 35, objectFit: "scale-down", borderRadius: 20 }}
+                                style={{ width: 35, height: 35, objectFit: "scale-down", }}
                                 key={technology}
                                 src={technology} />
                         )}
@@ -29,7 +29,7 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                                 <IconFont
                                     style={{ marginRight: 5 }}
                                     color={overGithub ? "white" : "gray"}
-                                    name={"github"}
+                                    name={data.url.includes("github") ? "github" : "see"}
                                     size={35}
                                     onMouseOver={() => setOverGithub(true)}
                                     onMouseLeave={() => setOverGithub(false)} />
