@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/LeleDallas/skillsfolio/compare/v1.3.0...v1.4.0) (2024-07-17)
+
+
+### Features
+
+* **Project:** update project list ([6763bb3](https://github.com/LeleDallas/skillsfolio/commit/6763bb31b3d19af221d616e134ceedb87f9de0be))
+
+
+### Bug Fixes
+
+* **Project:** image url ([29e98b9](https://github.com/LeleDallas/skillsfolio/commit/29e98b9a179a10718a5ff91a85e061ef34a6e6f6))
+
 ## [1.3.0](https://github.com/LeleDallas/skillsfolio/compare/v1.2.5...v1.3.0) (2024-05-10)
 
 
