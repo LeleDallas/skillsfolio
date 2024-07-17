@@ -257,6 +257,31 @@ export const experiencesItem: Array<ResumeObject> = [
 
 export const projects: Array<DataProjectModel> = [
     {
+        title: "StargazersViewerApp",
+        image: "https://private-user-images.githubusercontent.com/71103219/347133435-88c8b6e3-3b1c-41f2-8260-c9cc221170fb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMDU0MTUsIm5iZiI6MTcyMTIwNTExNSwicGF0aCI6Ii83MTEwMzIxOS8zNDcxMzM0MzUtODhjOGI2ZTMtM2IxYy00MWYyLTgyNjAtYzljYzIyMTE3MGZiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDA4MzE1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViZTUwMWM2MTA5Y2UzMTI0MmQ5NGI2ZTM3MzE4NDgxYTE3ZmViYmM0MTM2NTgyNTE3ZmY4MTYzY2UwMmYyOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.migvR4uUl8tThvSoaw9yRPF6dfBu20apbrFVYsttLPI",
+        type: "Mobile Application",
+        url: "https://github.com/LeleDallas/StargazersViewerApp",
+        description: "StarGazers Viewer App is a mobile application that allows you to search for a GitHub user and it's repository and view its stargazers. Built using React Native and TypeScript, the application uses the GitHub API with graphql to fetch the stargazers of a repository.",
+        tech: [
+            imagesLogo.react,
+            imagesLogo.jest,
+            imagesLogo.githubAction,
+        ]
+    },
+    {
+        title: "WeatherWise",
+        image: "https://github.com/LeleDallas/WeatherWise/raw/main/public/cover.png",
+        type: "Web Development",
+        description: "Weather application designed to provide accurate, real-time weather updates using the Open-Meteo API",
+        url: "https://github.com/LeleDallas/WeatherWise",
+        tech: [
+            imagesLogo.react,
+            imagesLogo.vite,
+            imagesLogo.vitest,
+            imagesLogo.githubAction,
+        ]
+    },
+    {
         title: "myVem",
         image: "./assets/myDev.png",
         type: "Web Development",
