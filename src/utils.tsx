@@ -6,10 +6,9 @@ export const role = "Software Engineer"
 export const phone = "+39 340 098 1328"
 export const birthday = "Oct 4, 1999"
 export const location = "Cesena, Emilia-Romagna, ITA"
-export const description = "I'm a Software Engineer from Cesena, Italy, with a passion for creating high-performance web and mobile applications. I enjoy turning complex problems into simple, beautiful and intuitive designs."
-export const descriptionDetails = `I love building high-performance web and mobile apps. From requirements to deployment, I handle the entire development lifecycle with passion and precision. 
-Keeping up with the latest trends in the industry is a priority, ensuring I always deliver top-notch, user-friendly solutions.
-\nLet's collaborate and create something amazing together!`
+export const description = "As a Software Engineer, my passion lies in crafting high-performance projects that transform complex challenges into simple, elegant, and intuitive solutions 🎨. I am committed to staying at the forefront of industry trends, ensuring the delivery of superior, user-friendly products 🚀."
+export const descriptionDetails = `I'm eager to collaborate and bring extraordinary ideas to life. 
+\nLet's create something remarkable together🤟🌍!`
 
 const imagesLogo = {
     githubAction: "https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png",
