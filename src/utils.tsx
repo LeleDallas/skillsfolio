@@ -261,11 +261,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Mobile Application",
         url: "https://github.com/LeleDallas/StargazersViewerApp",
         description: "StarGazers Viewer App is a mobile application that allows you to search for a GitHub user and it's repository and view its stargazers. Built using React Native and TypeScript, the application uses the GitHub API with graphql to fetch the stargazers of a repository.",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.jest,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,graphql,githubactions"
     },
     {
         title: "WeatherWise",
@@ -273,12 +269,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "Weather application designed to provide accurate, real-time weather updates using the Open-Meteo API",
         url: "https://github.com/LeleDallas/WeatherWise",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,vite,vitest,githubactions"
     },
     {
         title: "myVem",
@@ -286,13 +277,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "myVem is the cloud service orchestration platform created by VEM Sistemi, which allows you to monitor and manage technological complexity.",
         url: "https://myvem.com/",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            "https://www.freshleafmedia.co.uk/assets/media/bitbucket-pipeline_blogThumb.png",
-            "https://camo.githubusercontent.com/7756f4d96fbae10fad3ffb32fe76b870f037f5d3c77050786ff2d70b7c25d26c/68747470733a2f2f646f63732e6d6963726f736f66742e636f6d2f73762d73652f617a7572652f6d656469612f696e6465782f617a7572652d7369676e616c722e737667"
-        ]
+        tech: "react,typescript,vite,vitest,bitbucket"
     },
     {
         title: "TODO-list",
@@ -300,13 +285,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "The TODO-list is a versatile and fully responsive application designed to help you manage your tasks and stay organized efficiently.",
         url: "https://github.com/LeleDallas/TODO-list",
-        tech: [
-            imagesLogo.bun,
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.sonarCloud,
-            imagesLogo.githubAction,
-        ]
+        tech: "bun,react,typescript,vite,vitest,githubactions"
     },
     {
         title: "Cards Against Humanity",
@@ -314,14 +293,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "Cards Against Humanity: Fill in the Blank Edition - Unleash your dark humor! Hilarious party game where players fill in outrageous black card prompts with white cards. Create inside jokes, compete for the funniest combinations, and laugh uncontrollably. Get ready for twisted fun!",
         url: "https://github.com/LeleDallas/Cards-Against-Humanity",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.socket,
-            imagesLogo.sonarCloud,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,vite,vitest,mongodb,githubactions"
     },
     {
         title: "DERNetSoft Mobile",
@@ -330,12 +302,7 @@ export const projects: Array<DataProjectModel> = [
         description: "The DERNetSoft app helps connect you with your utility data and provides value-added services on top of it, including California's ELRP enrollment and notification system.",
         android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
         ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
-        tech: [
-            imagesLogo.react,
-            "https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
-            imagesLogo.jest,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,jest,mongodb,firebase"
     },
 
     {
@@ -344,14 +311,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
         url: "https://github.com/TrackER-Corporation",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.socket,
-            imagesLogo.sonarCloud,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,vite,vitest,mongodb,githubactions"
     },
     {
         title: "WarVerse",
@@ -359,7 +319,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Software Development",
         description: "Warverse is a war simulator among multiple states written in Scala. It allows you to define the participating states, their populations, army units, relationships between them, and available resources. Once the simulation is started, it is updated on a daily basis until all the wars are resolved.",
         url: "https://github.com/GZaccaroni/pps-warverse",
-        tech: [imagesLogo.scala, imagesLogo.githubAction, imagesLogo.sonarCloud]
+        tech: "scala"
     },
     {
         title: "Uptune",
@@ -367,10 +327,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Mobile (Android) Application",
         description: "Android app developed to provide a comprehensive and user-friendly platform for music lovers to purchase and listen to their favorite songs and albums digitally. The project was initiated to address the growing demand for a convenient and customizable music app that can cater to the needs of all music enthusiasts.",
         url: "https://github.com/LeleDallas/UpTune",
-        tech: [
-            imagesLogo.android,
-            imagesLogo.java,
-        ]
+        tech: "androidstudio,java"
     },
     {
         title: "BomberMan",
@@ -378,7 +335,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Software Development",
         description: "Java BomberMan 💣 is an Arcade game where players strategically place bombs to destroy obstacles and eliminate other players. The ultimate goal is to be the last one standing. Along the way, players can pick up power-ups that provide benefits such as larger explosions or the ability to place more bombs at once. However, players must be cautious as they can also be killed by their own bombs or by touching an enemy.",
         url: "https://github.com/LeleDallas/BomberMan",
-        tech: [imagesLogo.java]
+        tech: "java"
     },
     {
         title: "DERNetSoft Web App",
@@ -386,13 +343,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Web Development",
         description: "Software development at a technology startup in the energy sector, from requirements definition to deployment using React, React Native, TypeScript, and the MERN stack.",
         url: "https://www.dernetsoft.com/",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.jest,
-            imagesLogo.python,
-            imagesLogo.githubAction,
-            "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png",
-        ]
+        tech: "react,typescript,python,jest,mongodb,githubactions,gcp"
     },
     {
         title: "skillsfolio",
@@ -400,13 +351,7 @@ export const projects: Array<DataProjectModel> = [
         type: "Software Development",
         description: "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
         url: "https://github.com/LeleDallas/skillsfolio",
-        tech: [
-            imagesLogo.react,
-            imagesLogo.vite,
-            imagesLogo.vitest,
-            imagesLogo.sonarCloud,
-            imagesLogo.githubAction,
-        ]
+        tech: "react,typescript,vite,githubactions"
     },
 ]
 

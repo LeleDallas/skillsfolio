@@ -18,19 +18,14 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                         <img style={{ padding: 10, width: 350, borderRadius: 20 }} src={data.image} alt={data.title} />
                     </figure>
                     <div style={{ marginTop: 22, display: "flex", flexDirection: "row", justifyContent: "space-between", gap: 10 }}>
-                        {data.tech?.map((technology) =>
-                            <img
-                                style={{ width: 35, height: 35, objectFit: "scale-down", }}
-                                key={technology}
-                                src={technology} />
-                        )}
+                        <img src={`https://go-skill-icons.vercel.app/api/icons?i=${data.tech}&perline=5`} alt="tech" />
                         {data.url &&
                             <a href={data.url} target="_blank" className="social-link">
                                 <IconFont
                                     style={{ marginRight: 5 }}
                                     color={overGithub ? "white" : "gray"}
                                     name={data.url.includes("github") ? "github" : "see"}
-                                    size={35}
+                                    size={48}
                                     onMouseOver={() => setOverGithub(true)}
                                     onMouseLeave={() => setOverGithub(false)} />
                             </a>}
@@ -40,7 +35,7 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                                     style={{ marginRight: 5 }}
                                     color={overAndroid ? "white" : "gray"}
                                     name={"Play-Store"}
-                                    size={35}
+                                    size={48}
                                     onMouseOver={() => setOverAndroid(true)}
                                     onMouseLeave={() => setOverAndroid(false)} />
                             </a>}
@@ -50,7 +45,7 @@ const ModalProjects = ({ visible, setVisible, data }: ModalProjectProps) => {
                                     style={{ marginRight: 5 }}
                                     color={overIos ? "white" : "gray"}
                                     name={"a-applestore"}
-                                    size={35}
+                                    size={48}
                                     onMouseOver={() => setOverIos(true)}
                                     onMouseLeave={() => setOverIos(false)} />
                             </a>}

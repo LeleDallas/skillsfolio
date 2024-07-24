@@ -32,7 +32,7 @@ export interface DataProjectModel {
     android?: string
     image: string
     description2?: string
-    tech?: Array<string>
+    tech?: string
 }
 
 export interface ModalProjectProps {
