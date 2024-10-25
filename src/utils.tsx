@@ -215,6 +215,11 @@ export const resumeItem: Array<ResumeObject> = [
 
 export const experiencesItem: Array<ResumeObject> = [
     {
+        description: ``,
+        title: "PagoPA S.p.A",
+        time: "Oct 2023 - Now"
+    },
+    {
         description: `Design, develop, test and deploy design features in a timely manner maintaining brand consistency throughout the design process.
         Spearheaded the migration of our project from Create React App (CRA) to Vite, which led to significant performance enhancements and expedited build times.       
         Introduced clean code practices and principles to bolster code quality and maintainability. 
@@ -225,7 +230,7 @@ export const experiencesItem: Array<ResumeObject> = [
         Implemented WebSockets with SignalR for real-time notifications, enhancing user experience and engagement.
         In collaboration with the team, I ensured the on-time delivery of features and updates.`,
         title: "Software Engineer at myDev S.R.L",
-        time: "Dec 2023 - Now"
+        time: "Dec 2023 - Oct 2023"
     },
     {
         description: `Engaged in full-cycle software development at a technology startup in the energy sector, from requirements definition to deployment. 
