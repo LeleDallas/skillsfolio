@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.5.0](https://github.com/LeleDallas/skillsfolio/compare/v1.4.2...v1.5.0) (2024-10-28)
+
+
+### Features
+
+* (resume): update story ([1964533](https://github.com/LeleDallas/skillsfolio/commit/196453354788a8e926201b74bb7615633a2a24e3))
+* **ModalProject:** iOS Android icon, skills ([fbb9699](https://github.com/LeleDallas/skillsfolio/commit/fbb969925cb4f51995e9c4dc073d480138fb141b))
+* **Project:** update project list ([6763bb3](https://github.com/LeleDallas/skillsfolio/commit/6763bb31b3d19af221d616e134ceedb87f9de0be))
+* **resume:** Pdf ([71b6f7e](https://github.com/LeleDallas/skillsfolio/commit/71b6f7ec54bf0a42d5300452dd2a5d47724cc950))
+* **Resume:** pdf resume embedded ([4fa1841](https://github.com/LeleDallas/skillsfolio/commit/4fa1841715c2d2a8293d2fdb24792332abbf28b6))
+* TODO project ([5db0d6a](https://github.com/LeleDallas/skillsfolio/commit/5db0d6a7b6ee3d678b11546fb607f25b2f8303a5))
+
+
+### Bug Fixes
+
+* **chore:** action version ([d6653ea](https://github.com/LeleDallas/skillsfolio/commit/d6653ea758e178f699fcb95eb4d8b4149716b14d))
+* **deps:** update dependency @ant-design/icons to v5.3.0 ([b929a56](https://github.com/LeleDallas/skillsfolio/commit/b929a562ee2308968ef2aa84737d99f8b160b054))
+* **deps:** update dependency @ant-design/icons to v5.3.2 ([f292cac](https://github.com/LeleDallas/skillsfolio/commit/f292cac6cb6f2169c0569d50dc10b57c8fd099a2))
+* **deps:** update dependency @ant-design/icons to v5.3.4 ([dce60b8](https://github.com/LeleDallas/skillsfolio/commit/dce60b8a530c8a46602fd62ad43ef3c2349ad214))
+* **deps:** update dependency @ant-design/icons to v5.3.5 ([42a0348](https://github.com/LeleDallas/skillsfolio/commit/42a0348abdade2e5981c10dd9aa311212527f6a5))
+* **deps:** update dependency @ant-design/icons to v5.3.6 ([4ddd36e](https://github.com/LeleDallas/skillsfolio/commit/4ddd36ea75f49b924734adad386de3b9b2f7bcfb))
+* **deps:** update dependency @ant-design/icons to v5.3.7 ([22414da](https://github.com/LeleDallas/skillsfolio/commit/22414da489daae6b5c94a73f2aaf173bbac8a544))
+* **deps:** update dependency @ant-design/icons to v5.4.0 ([9a983a9](https://github.com/LeleDallas/skillsfolio/commit/9a983a98ff7a0155e052a5c9a21e96487aa1db36))
+* **deps:** update dependency @ant-design/icons to v5.5.0 ([970243a](https://github.com/LeleDallas/skillsfolio/commit/970243ae4af103bfcde2ac2940ac8282852a5583))
+* **deps:** update dependency @ant-design/icons to v5.5.1 ([4f49141](https://github.com/LeleDallas/skillsfolio/commit/4f491410cdcb2a77530217366e21bb69851d2843))
+* **deps:** update dependency fs-extra to v11.2.0 ([71f3ddb](https://github.com/LeleDallas/skillsfolio/commit/71f3ddba84def6b0cfe47b99a6d3e90300137555))
+* duplicated lines ([bd307aa](https://github.com/LeleDallas/skillsfolio/commit/bd307aa410a0e2bf1ac82b215f3db47b317d7635))
+* hide map secret, removed placeholder ([b4adf02](https://github.com/LeleDallas/skillsfolio/commit/b4adf02ebf15ee65a2476539b7791ec461024a3f))
+* **Iconfont:** remove unused import ([951de6c](https://github.com/LeleDallas/skillsfolio/commit/951de6c63db5749c9c52e39241d81b17f79557b0))
+* **Project:** image url ([29e98b9](https://github.com/LeleDallas/skillsfolio/commit/29e98b9a179a10718a5ff91a85e061ef34a6e6f6))
+* Reliability issue ([9a3ea18](https://github.com/LeleDallas/skillsfolio/commit/9a3ea181ee9af3a29f8959f6247010ddca99478c))
+* **resume:** missing text ([51dffed](https://github.com/LeleDallas/skillsfolio/commit/51dffed4661345aa88410f00e757ea0288da93c3))
+* **Resume:** pdf src ([93cd1cb](https://github.com/LeleDallas/skillsfolio/commit/93cd1cb0ffce17fa95b143dd8ae0d5e65d26a910))
+* **Resume:** typo label ([0468697](https://github.com/LeleDallas/skillsfolio/commit/0468697da234cdadb88d50b936ffcb41912700ae))
+
+
+### Performance Improvements
+
+* update renovate config ([e5c1069](https://github.com/LeleDallas/skillsfolio/commit/e5c1069fa08775e2a10cd799c592eaaec407d8e3))
+
 ## [1.4.2](https://github.com/LeleDallas/skillsfolio/compare/v1.4.1...v1.4.2) (2024-09-30)
 
 
