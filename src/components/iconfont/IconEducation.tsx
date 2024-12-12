@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconEducation: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconEducation: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -32,10 +32,6 @@ const IconEducation: FunctionComponent<Props> = ({ size, color, style: _style, .
       />
     </svg>
   );
-};
-
-IconEducation.defaultProps = {
-  size: 18,
 };
 
 export default IconEducation;

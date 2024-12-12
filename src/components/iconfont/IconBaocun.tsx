@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconBaocun: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconBaocun: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -34,8 +34,6 @@ const IconBaocun: FunctionComponent<Props> = ({ size, color, style: _style, ...r
   );
 };
 
-IconBaocun.defaultProps = {
-  size: 18,
-};
+// Removed defaultProps as default parameters are used instead
 
 export default IconBaocun;

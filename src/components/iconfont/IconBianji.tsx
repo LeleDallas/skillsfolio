@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconBianji: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconBianji: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -34,8 +34,5 @@ const IconBianji: FunctionComponent<Props> = ({ size, color, style: _style, ...r
   );
 };
 
-IconBianji.defaultProps = {
-  size: 18,
-};
 
 export default IconBianji;

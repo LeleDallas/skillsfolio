@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconFaxian: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconFaxian: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -32,10 +32,6 @@ const IconFaxian: FunctionComponent<Props> = ({ size, color, style: _style, ...r
       />
     </svg>
   );
-};
-
-IconFaxian.defaultProps = {
-  size: 18,
 };
 
 export default IconFaxian;

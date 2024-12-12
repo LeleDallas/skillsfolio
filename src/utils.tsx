@@ -261,6 +261,14 @@ export const experiencesItem: Array<ResumeObject> = [
 
 export const projects: Array<DataProjectModel> = [
     {
+        title: "io-app",
+        image: "https://raw.githubusercontent.com/pagopa/io-app/refs/heads/master/img/io-app-icon.png",
+        type: "Mobile Application",
+        url: "https://github.com/pagopa/io-app",
+        description: "IO - The public services app. The mobile app of the Digital Citizenship project",
+        tech: "react,typescript, "
+    },
+    {
         title: "StargazersViewerApp",
         image: "./assets/stargazer.png",
         type: "Mobile Application",

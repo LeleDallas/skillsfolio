@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconMail: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconMail: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -29,9 +29,4 @@ const IconMail: FunctionComponent<Props> = ({ size, color, style: _style, ...res
     </svg>
   );
 };
-
-IconMail.defaultProps = {
-  size: 18,
-};
-
 export default IconMail;

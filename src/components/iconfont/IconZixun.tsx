@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconZixun: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconZixun: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -32,10 +32,6 @@ const IconZixun: FunctionComponent<Props> = ({ size, color, style: _style, ...re
       />
     </svg>
   );
-};
-
-IconZixun.defaultProps = {
-  size: 18,
 };
 
 export default IconZixun;

@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconPhoneiphone: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconPhoneiphone: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -25,9 +25,4 @@ const IconPhoneiphone: FunctionComponent<Props> = ({ size, color, style: _style,
     </svg>
   );
 };
-
-IconPhoneiphone.defaultProps = {
-  size: 18,
-};
-
 export default IconPhoneiphone;
