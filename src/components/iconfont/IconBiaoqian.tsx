@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconBiaoqian: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconBiaoqian: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -28,10 +28,6 @@ const IconBiaoqian: FunctionComponent<Props> = ({ size, color, style: _style, ..
       />
     </svg>
   );
-};
-
-IconBiaoqian.defaultProps = {
-  size: 18,
 };
 
 export default IconBiaoqian;

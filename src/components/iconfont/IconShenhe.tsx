@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconShenhe: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconShenhe: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -30,8 +30,5 @@ const IconShenhe: FunctionComponent<Props> = ({ size, color, style: _style, ...r
   );
 };
 
-IconShenhe.defaultProps = {
-  size: 18,
-};
 
 export default IconShenhe;

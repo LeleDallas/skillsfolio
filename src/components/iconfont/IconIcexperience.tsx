@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconIcexperience: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconIcexperience: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -24,10 +24,6 @@ const IconIcexperience: FunctionComponent<Props> = ({ size, color, style: _style
       />
     </svg>
   );
-};
-
-IconIcexperience.defaultProps = {
-  size: 18,
 };
 
 export default IconIcexperience;

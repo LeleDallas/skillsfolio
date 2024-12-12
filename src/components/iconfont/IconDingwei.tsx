@@ -13,7 +13,7 @@ const DEFAULT_STYLE: CSSProperties = {
   display: 'block',
 };
 
-const IconDingwei: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+const IconDingwei: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
@@ -28,10 +28,6 @@ const IconDingwei: FunctionComponent<Props> = ({ size, color, style: _style, ...
       />
     </svg>
   );
-};
-
-IconDingwei.defaultProps = {
-  size: 18,
 };
 
 export default IconDingwei;
