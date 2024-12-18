@@ -63,20 +63,6 @@ const Aside = () => {
                     </li>
 
                     <li className="contact-item">
-
-                        <div className="icon-box">
-                            <IconFont name="phoneiphone" size={22} color="#006df0" />
-                        </div>
-
-                        <div className="contact-info">
-                            <p className="contact-title">Phone</p>
-
-                            <a href="tel:+393400981328" className="contact-link">{phone}</a>
-                        </div>
-
-                    </li>
-
-                    <li className="contact-item">
                         <div className="icon-box">
                             <IconFont name="riqi" size={22} color="#006df0" />
                         </div>
