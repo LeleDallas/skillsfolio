@@ -3,7 +3,6 @@ import { BookObject, DataModel, DataProjectModel, ResumeObject, SocialObject } f
 export const fullName = "Emanuele Dall'Ara"
 export const email = "emanuele.dallara99@gmail.com"
 export const role = "Software Engineer"
-export const phone = "+39 340 098 1328"
 export const birthday = "Oct 4, 1999"
 export const location = "Cesena, Emilia-Romagna, ITA"
 export const description = "As a Software Engineer, my passion lies in crafting high-performance projects that transform complex challenges into simple, elegant, and intuitive solutions 🎨. I am committed to staying at the forefront of industry trends, ensuring the delivery of superior, user-friendly products 🚀."

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import IconFont from "../components/iconfont";
-import { birthday, email, fullName, location, phone, role, socialListIcons } from "../utils";
+import { birthday, email, fullName, location, role, socialListIcons } from "../utils";
 
 const Aside = () => {
 
@@ -58,20 +58,6 @@ const Aside = () => {
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
                             <a href="mailto:emanuele.dallara99@gmail.com" className="contact-link">{email}</a>
-                        </div>
-
-                    </li>
-
-                    <li className="contact-item">
-
-                        <div className="icon-box">
-                            <IconFont name="phoneiphone" size={22} color="#006df0" />
-                        </div>
-
-                        <div className="contact-info">
-                            <p className="contact-title">Phone</p>
-
-                            <a href="tel:+393400981328" className="contact-link">{phone}</a>
                         </div>
 
                     </li>
