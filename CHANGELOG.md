@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/LeleDallas/skillsfolio/compare/v1.5.0...v1.5.1) (2025-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([4c6ba1d](https://github.com/LeleDallas/skillsfolio/commit/4c6ba1df22211af8293be0e09a6a4555bc1e00d0))
+
 ## [1.5.0](https://github.com/LeleDallas/skillsfolio/compare/v1.4.2...v1.5.0) (2024-10-28)
 
 
