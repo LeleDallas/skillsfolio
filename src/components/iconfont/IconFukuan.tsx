@@ -1,34 +1,34 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import { CSSProperties, SVGAttributes, FunctionComponent } from 'react';
-import { getIconColor } from './helper';
+import { CSSProperties, SVGAttributes, FunctionComponent } from "react";
+import { getIconColor } from "./helper";
 
-interface Props extends Omit<SVGAttributes<SVGElement>, 'color'> {
+interface Props extends Omit<SVGAttributes<SVGElement>, "color"> {
   size?: number;
   color?: string | string[];
 }
 
 const DEFAULT_STYLE: CSSProperties = {
-  display: 'block',
+  display: "block",
 };
 
 const IconFukuan: FunctionComponent<Props> = ({ size = 18, color, style: _style, ...rest }) => {
   const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
 
   return (
-    <svg viewBox="0 0 1024 1024" width={size + 'px'} height={size + 'px'} style={style} {...rest}>
+    <svg viewBox="0 0 1024 1024" width={size + "px"} height={size + "px"} style={style} {...rest}>
       <path
         d="M928.3584 346.88c-14.1312 0-25.6 11.4688-25.6 25.6v22.1184c0 14.1312 11.4688 25.6 25.6 25.6s25.6-11.4688 25.6-25.6v-22.1184c0-14.1312-11.4688-25.6-25.6-25.6z"
-        fill={getIconColor(color, 0, '#44454A')}
+        fill={getIconColor(color, 0, "#44454A")}
       />
       <path
         d="M928.3584 463.2576c-14.1312 0-25.6 11.4688-25.6 25.6v261.0176c0 79.3088-64.512 143.7696-143.7696 143.7696H275.3024c-79.3088 0-143.7696-64.512-143.7696-143.7696V274.0224c0-79.3088 64.512-143.7696 143.7696-143.7696h483.6864c79.3088 0 143.7696 64.512 143.7696 143.7696 0 14.1312 11.4688 25.6 25.6 25.6s25.6-11.4688 25.6-25.6c0-107.52-87.4496-194.9696-194.9696-194.9696H275.3024c-107.52 0-194.9696 87.4496-194.9696 194.9696v475.8528c0 107.52 87.4496 194.9696 194.9696 194.9696h483.6864c107.52 0 194.9696-87.4496 194.9696-194.9696V488.8576c0-14.1312-11.4688-25.6-25.6-25.6z"
-        fill={getIconColor(color, 1, '#44454A')}
+        fill={getIconColor(color, 1, "#44454A")}
       />
       <path
         d="M688.2816 522.9568c14.1312 0 25.6-11.4688 25.6-25.6s-11.4688-25.6-25.6-25.6h-136.9088l155.4944-163.9936c9.728-10.24 9.3184-26.4704-0.9728-36.1984-10.24-9.728-26.4704-9.3184-36.1984 0.9728l-152.0128 160.3584-143.0528-159.8464c-9.4208-10.5472-25.6-11.4176-36.1472-1.9968-10.5472 9.4208-11.4176 25.6-1.9968 36.1472l147.2512 164.5056H349.0304c-14.1312 0-25.6 11.4688-25.6 25.6s11.4688 25.6 25.6 25.6H493.056v88.0128H349.0304c-14.1312 0-25.6 11.4688-25.6 25.6s11.4688 25.6 25.6 25.6H493.056v94.0032c0 14.1312 11.4688 25.6 25.6 25.6s25.6-11.4688 25.6-25.6v-94.0032h144.0256c14.1312 0 25.6-11.4688 25.6-25.6s-11.4688-25.6-25.6-25.6H544.256v-88.0128h144.0256z"
-        fill={getIconColor(color, 2, '#44454A')}
+        fill={getIconColor(color, 2, "#44454A")}
       />
     </svg>
   );

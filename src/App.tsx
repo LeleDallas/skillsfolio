@@ -1,19 +1,18 @@
-import { useEffect, useState } from 'react'
-import Navbar from './navigator/Navbar'
-import About from './screens/About'
-import Aside from './navigator/Aside'
-import Resume from './screens/Resume'
-import { ActiveNav } from './types'
-import Bookshelf from './screens/Bookshelf'
-import Projects from './screens/Projects'
+import { useEffect, useState } from "react";
+import Navbar from "./navigator/Navbar";
+import About from "./screens/About";
+import Aside from "./navigator/Aside";
+import Resume from "./screens/Resume";
+import { ActiveNav } from "./types";
+import Bookshelf from "./screens/Bookshelf";
+import Projects from "./screens/Projects";
 
 function App() {
-
-  const [active, setActive] = useState<ActiveNav>("About")
+  const [active, setActive] = useState<ActiveNav>("About");
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [active])
+    window.scrollTo(0, 0);
+  }, [active]);
 
   return (
     <main>
@@ -26,7 +25,7 @@ function App() {
         <Projects active={active} />
       </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
