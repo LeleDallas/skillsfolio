@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.6.0](https://github.com/LeleDallas/skillsfolio/compare/v1.5.0...v1.6.0) (2026-02-27)
+
+
+### Features
+
+* prettier setup ([c067959](https://github.com/LeleDallas/skillsfolio/commit/c0679594db4feeeb755bfbc168e3e0dbadf905d1))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([4edb2fb](https://github.com/LeleDallas/skillsfolio/commit/4edb2fb8677c67c9dfa2049737ddb5ad9564ce10))
+* **deps:** update all non-major dependencies ([54ab278](https://github.com/LeleDallas/skillsfolio/commit/54ab278e1520f6bcc387440a73454ba358bf4654))
+* **deps:** update all non-major dependencies ([8d8ce78](https://github.com/LeleDallas/skillsfolio/commit/8d8ce7879febb7ade51c476d6cb97f77c246d7ee))
+* **deps:** update all non-major dependencies ([647d6aa](https://github.com/LeleDallas/skillsfolio/commit/647d6aa9a4d169bbe2230fe85370197215acd561))
+* **deps:** update all non-major dependencies ([03c3aae](https://github.com/LeleDallas/skillsfolio/commit/03c3aae233092481927284e610e6544db3a4d590))
+* **deps:** update all non-major dependencies ([4c6ba1d](https://github.com/LeleDallas/skillsfolio/commit/4c6ba1df22211af8293be0e09a6a4555bc1e00d0))
+* **deps:** update all non-major dependencies to v19.1.0 ([f7ebec9](https://github.com/LeleDallas/skillsfolio/commit/f7ebec9ff5e7bb134462feb1f71c5e80973a8b4f))
+* **deps:** update all non-major dependencies to v19.1.0 ([c56bd4e](https://github.com/LeleDallas/skillsfolio/commit/c56bd4e0f8503f3fa303eaf3be6fed95475311f6))
+* **deps:** update dependency @ant-design/icons to v6 ([a68f3fb](https://github.com/LeleDallas/skillsfolio/commit/a68f3fbcfc8830831474ccfcb90712be85f78bd3))
+* **deps:** update dependency @ant-design/icons to v6 ([3bb2459](https://github.com/LeleDallas/skillsfolio/commit/3bb2459156a87fc429c8f2676066ab86d66267b8))
+* **deps:** update react monorepo to v19 (major) ([e2fa235](https://github.com/LeleDallas/skillsfolio/commit/e2fa235600d285ae431ea5a60e409bb521eccecb))
+
 ## [1.5.0](https://github.com/LeleDallas/skillsfolio/compare/v1.4.2...v1.5.0) (2024-10-28)
 
 
