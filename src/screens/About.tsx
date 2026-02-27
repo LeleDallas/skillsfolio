@@ -23,7 +23,7 @@ const About = ({ active }: ScreenProps) => {
       </header>
 
       <section className="about-text">
-        <p>{description}</p>
+        <p style={{ whiteSpace: "break-spaces" }}>{description}</p>
         <p style={{ whiteSpace: "break-spaces" }}>{descriptionDetails}</p>
       </section>
       <section className="service">
