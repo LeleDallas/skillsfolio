@@ -8,7 +8,9 @@
     "host": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettify": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "prettify:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
@@ -24,6 +26,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "prettier": "^3.8.1",
     "typescript": "^5.6.2",
     "vite": "^6.0.0"
   }
