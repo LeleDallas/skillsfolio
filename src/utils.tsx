@@ -6,7 +6,7 @@ export const role = "Software Engineer";
 export const birthday = "Oct 4, 1999";
 export const location = "Cesena, Emilia-Romagna, ITA";
 export const description =
-  "As a Software Engineer, my passion lies in crafting high-performance projects that transform complex challenges into simple, elegant, and intuitive solutions 🎨. I am committed to staying at the forefront of industry trends, ensuring the delivery of superior, user-friendly products 🚀.";
+  "As a Software Engineer, my passion lies in crafting high-performance projects that transform complex challenges into simple, elegant, and intuitive solutions 🎨. \nI am committed to staying at the forefront of industry trends, ensuring the delivery of superior, user-friendly products 🚀.";
 export const descriptionDetails = `I'm eager to collaborate and bring extraordinary ideas to life. 
 \nLet's create something remarkable together🤟🌍!`;
 
@@ -15,9 +15,9 @@ const imagesLogo = {
   bun: "https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png",
   react:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-  vite: "https://vitejs.dev/logo-with-shadow.png",
+  vite: "https://vite.dev/assets/vite-light.t8GCa_VF.svg",
   vitest: "https://vitest.dev/logo.svg",
-  java: "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+  typescript: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1280px-Typescript.svg.png",
   scala: "https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
   socket:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
@@ -26,7 +26,8 @@ const imagesLogo = {
   jest: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png",
   python:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
-  sonarCloud: "https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png",
+  sonarCloud:
+    "https://assets-eu-01.kc-usercontent.com/ef593040-b591-0198-9506-ed88b30bc023/8e59bcad-6e39-41dc-abd9-a0e251e8d63f/Sonar%20%282%29.svg?w=128&h=32&dpr=2&fit=crop&q=80",
 };
 
 export const navbarItems = ["About", "Resume", "Projects", "Bookshelf"];
@@ -74,16 +75,10 @@ export const technologiesItems: Array<DataModel> = [
       "Elevated the quality and reliability of my JavaScript and React Vite projects. As a powerful testing framework, Vitest has allowed me to write comprehensive test suites, ensuring that my code functions as expected and remains resilient to changes. By employing Vitest snapshot testing, I've effortlessly detected regressions and maintained code consistency across iterations. Whether writing unit tests, integration tests, or UI component tests, Vitest has been an invaluable tool in my toolkit, helping me deliver robust and bug-free applications.",
   },
   {
-    image: imagesLogo.java,
-    title: "Java",
+    image: imagesLogo.typescript,
+    title: "Typescript/Javascript",
     description:
-      "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. Java's object-oriented nature allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through Java's vast ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my Java expertise has driven the development of powerful software that addresses diverse business needs.",
-  },
-  {
-    image: imagesLogo.scala,
-    title: "Scala",
-    description:
-      "I've embraced the power of functional programming and object-oriented paradigms to build elegant and scalable applications. Scala's expressive syntax and strong type system allowed me to write concise and readable code, facilitating rapid development without sacrificing safety. Leveraging its seamless integration with Java, I've harnessed existing Java libraries and ecosystems while enjoying the benefits of functional programming offered by Scala. From building high-performance backend services to creating data-intensive applications, Scala has been my language of choice for crafting innovative solutions that push the boundaries of modern software development.",
+      "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. TypeScript's type safety and JavaScript's flexibility allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through TypeScript's extensive ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my TypeScript expertise has driven the development of powerful software that addresses diverse business needs.",
   },
   {
     image:
@@ -235,7 +230,7 @@ export const experiencesItem: Array<ResumeObject> = [
         collaborating closely with product, design and platform teams to ensure consistency, reliability and a seamless user experience. I also contribute to the payment side of the stream by supporting the integration and refinement of wallet and transaction features, improving navigation, error handling and state management to ensure stable and predictable payment flows across the app.
         Throughout my tenure, I’ve contributed to multiple service integrations used nationwide, participated in architectural improvements that addressed long-standing technical issues, and supported accessibility upgrades across domains. 
         My role focuses on strengthening the quality, maintainability and overall user experience of one of Italy’s most widely used public-service applications.`,
-    title: "PagoPA S.p.A",
+    title: "Middle Mobile Software Engineer at PagoPA S.p.A",
     time: "Oct 2023 - Now",
   },
   {
