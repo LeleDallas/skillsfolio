@@ -77,7 +77,7 @@ export const technologiesItems: Array<DataModel> = [
   },
   {
     image: imagesLogo.typescript,
-    title: "Typescript/Javascript",
+    title: "Typescript",
     description:
       "I've crafted robust and scalable applications that stand the test of time. Leveraging the language's versatility, I've developed a wide range of projects, from desktop applications to server-side systems. TypeScript's type safety and JavaScript's flexibility allowed me to create well-structured and maintainable codebases, ensuring ease of collaboration with other developers. Through TypeScript's extensive ecosystem of libraries and frameworks, I've implemented complex functionalities with efficiency and reliability. From enterprise solutions to small-scale projects, my TypeScript expertise has driven the development of powerful software that addresses diverse business needs.",
   },
