@@ -17,7 +17,8 @@ const imagesLogo = {
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
   vite: "https://vite.dev/assets/vite-light.t8GCa_VF.svg",
   vitest: "https://vitest.dev/logo.svg",
-  typescript: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1280px-Typescript.svg.png",
+  typescript:
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1280px-Typescript.svg.png",
   scala: "https://cdn-icons-png.flaticon.com/512/6132/6132220.png",
   socket:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png",
@@ -230,7 +231,7 @@ export const experiencesItem: Array<ResumeObject> = [
         collaborating closely with product, design and platform teams to ensure consistency, reliability and a seamless user experience. I also contribute to the payment side of the stream by supporting the integration and refinement of wallet and transaction features, improving navigation, error handling and state management to ensure stable and predictable payment flows across the app.
         Throughout my tenure, I’ve contributed to multiple service integrations used nationwide, participated in architectural improvements that addressed long-standing technical issues, and supported accessibility upgrades across domains. 
         My role focuses on strengthening the quality, maintainability and overall user experience of one of Italy’s most widely used public-service applications.`,
-    title: "Middle Mobile Software Engineer at PagoPA S.p.A",
+    title: "Mobile Software Engineer at PagoPA S.p.A",
     time: "Oct 2023 - Now",
   },
   {
@@ -275,12 +276,21 @@ export const experiencesItem: Array<ResumeObject> = [
 
 export const projects: Array<DataProjectModel> = [
   {
+    title: "Carta Giovani Nazionale - Portale Esercenti",
+    image: "https://ebinconfitalia.it/wp-content/uploads/2022/03/cgn0-720x368-1.jpg",
+    type: "Web Application",
+    url: "https://github.com/pagopa/cgn-onboarding-portal-frontend",
+    description: "The Carta Giovani Nazionale (CGN) is a national initiative in Italy that provides young people with access to various benefits and discounts. The CGN Merchant Portal is a web application designed to facilitate the onboarding process for merchants who wish to participate in the CGN program. It allows merchants to register, manage their profiles, and access resources related to the CGN initiative.",
+    tech: "react,typescript,vite",
+  },
+  {
     title: "io-app",
-    image: "https://raw.githubusercontent.com/pagopa/io-app/refs/heads/master/img/io-app-icon.png",
+    image:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/1b/cc/ed1bcc7b-8891-b97f-e1a6-ec3746a0ea94/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/1200x630wa.png",
     type: "Mobile Application",
     url: "https://github.com/pagopa/io-app",
-    description: "IO - The public services app. The mobile app of the Digital Citizenship project",
-    tech: "react,typescript, ",
+    description: "IO - The public services app. The mobile app of the Digital Citizenship project. The app allows citizens to access public services in a simple, intuitive and secure way, providing a single point of access to a wide range of services offered by the public administration.",
+    tech: "react,typescript,redux",
   },
   {
     title: "StargazersViewerApp",
@@ -335,7 +345,7 @@ export const projects: Array<DataProjectModel> = [
       "The DERNetSoft app helps connect you with your utility data and provides value-added services on top of it, including California's ELRP enrollment and notification system.",
     android: "https://play.google.com/store/apps/details?id=com.dernetsoft.dernetsoft&hl=en&gl=US",
     ios: "https://apps.apple.com/it/app/dernetsoft/id1579749243?uo=2",
-    tech: "react,typescript,jest,mongodb,firebase",
+    tech: "react,typescript,jest,mongodb,firebase,redux",
   },
 
   {
@@ -345,7 +355,7 @@ export const projects: Array<DataProjectModel> = [
     description:
       "The project involves creating a web-based software solution for managing, tracking, and selling energy, catering to both energy vendors and building owners. Users can access two main interfaces, Vendor and Building Owner, after registering. The system includes a web application accessible from any internet-connected device and a web server composed of microservices.",
     url: "https://github.com/TrackER-Corporation",
-    tech: "react,typescript,vite,vitest,mongodb,githubactions",
+    tech: "react,typescript,redux,vite,vitest,mongodb,githubactions",
   },
   {
     title: "WarVerse",
@@ -381,12 +391,12 @@ export const projects: Array<DataProjectModel> = [
     description:
       "Software development at a technology startup in the energy sector, from requirements definition to deployment using React, React Native, TypeScript, and the MERN stack.",
     url: "https://www.dernetsoft.com/",
-    tech: "react,typescript,python,jest,mongodb,githubactions,gcp",
+    tech: "react,typescript,redux,python,jest,mongodb,githubactions,gcp, ",
   },
   {
     title: "skillsfolio",
     image: "./assets/skills.png",
-    type: "Software Development",
+    type: "Web Development",
     description:
       "Fully responsive personal portfolio website, responsive for all devices, built using React with Vite.",
     url: "https://github.com/LeleDallas/skillsfolio",
